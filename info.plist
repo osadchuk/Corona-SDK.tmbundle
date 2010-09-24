@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Corona SDK</string>
+	<key>ordering</key>
+	<array>
+		<string>E2D1F434-A472-4185-9933-4D9408C6C4D0</string>
+		<string>BF303CAC-FF2B-4299-8F2B-C84FE64B5146</string>
+		<string>0CEE4504-F8F1-4A98-AC7B-AA679CAAAB55</string>
+		<string>082D9465-0CEF-40DB-9B1C-34940D38F4F0</string>
+		<string>A75263F5-C971-42F2-8FAC-83829AD945DE</string>
+		<string>B1FDD74B-F037-45B7-AA61-7CB56BFA67CD</string>
+		<string>3E0EEDB8-2C15-4703-939B-9334714B3A8E</string>
+		<string>F4A541EB-8C83-4EFB-97A7-F780807AC23A</string>
+		<string>8E68AA99-64F4-4D36-AF80-D7D0B3DCD041</string>
+		<string>2052FA2D-5830-4665-8C90-01D0C7E04991</string>
+		<string>25495BEF-4928-42D3-BBB4-D0C56936B9DD</string>
+		<string>CD4C09C5-A81D-444A-89F2-FE2B332B4FF1</string>
+		<string>FFF4FF36-3DBF-4B66-BAA4-800E4046D6E9</string>
+		<string>93CADF59-CBCA-43A1-85CE-A603526C612E</string>
+		<string>0DE89ECA-3885-487D-9C38-60E93CE1FD2A</string>
+		<string>58EC5F1F-655C-417C-A807-32572640CEA8</string>
+		<string>ED6354A9-3E38-482B-9E40-033FA368EFA4</string>
+		<string>0239E566-934D-4C6C-B8FA-DA44E9E45876</string>
+		<string>D392798C-B015-43F6-903C-AB08FE8C9594</string>
+		<string>93E017CC-6F27-11D9-90EB-000D93589AF7</string>
+		<string>8A2A2BE0-B474-49B4-85C3-BAF2BD2FCAFB</string>
+		<string>411468A8-E0AC-415A-9E71-E2BD091EB571</string>
+		<string>55EEE7A8-288A-4DBD-9285-7FD5250F1B97</string>
+	</array>
+	<key>uuid</key>
+	<string>1D5D816D-79F9-4F19-9D76-E869E67D4320</string>
+</dict>
+</plist>

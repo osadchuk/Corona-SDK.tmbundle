@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>transition.to(${1:object}, {time = ${2:seconds}, ${3:property} = ${4:value}, onComplete = ${5:function}})</string>
+	<key>name</key>
+	<string>transition.to</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>transition.to</string>
+	<key>uuid</key>
+	<string>D392798C-B015-43F6-903C-AB08FE8C9594</string>
+</dict>
+</plist>

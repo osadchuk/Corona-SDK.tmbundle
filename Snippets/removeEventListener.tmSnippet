@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>removeEventListener("${1:event_name}", ${2:callback_function})</string>
+	<key>name</key>
+	<string>removeEventListener</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>removeEventListener</string>
+	<key>uuid</key>
+	<string>FFF4FF36-3DBF-4B66-BAA4-800E4046D6E9</string>
+</dict>
+</plist>

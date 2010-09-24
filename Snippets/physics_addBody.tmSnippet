@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>physics.addBody(${1:object}, "${2:static, dynamic, or kinematic}", {density = ${3:1.0}, friction = ${4:0.3}, bounce = ${5:0.2}, isSensor = ${6:false}}})</string>
+	<key>name</key>
+	<string>physics.addBody</string>
+	<key>tabTrigger</key>
+	<string>physics.addBody</string>
+	<key>uuid</key>
+	<string>93CADF59-CBCA-43A1-85CE-A603526C612E</string>
+</dict>
+</plist>

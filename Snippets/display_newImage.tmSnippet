@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.newImage( "${1:path_to_image}" )</string>
+	<key>name</key>
+	<string>display.newImage</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>display.newImage</string>
+	<key>uuid</key>
+	<string>0DE89ECA-3885-487D-9C38-60E93CE1FD2A</string>
+</dict>
+</plist>

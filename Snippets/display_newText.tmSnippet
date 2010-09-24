@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.newText("${1:string}", ${2:x}, ${3:y}, ${4:font}, ${5:size})</string>
+	<key>name</key>
+	<string>display.newText</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>display.newText</string>
+	<key>uuid</key>
+	<string>0239E566-934D-4C6C-B8FA-DA44E9E45876</string>
+</dict>
+</plist>
