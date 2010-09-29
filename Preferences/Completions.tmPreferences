@@ -22,9 +22,11 @@
 			<string>removeSelf</string>
 			<string>TopLeftReferencePoint</string>
 			<string>TopRightReferencePoint</string>
+			<string>TopCenterReferencePoint</string>
 			<string>CenterReferencePoint</string>
 			<string>BottomLeftReferencePoint</string>
 			<string>BottomRightReferencePoint</string>
+			<string>BottomCenterReferencePoint</string>
 			<string>alpha</string>
 			<string>height</string>
 			<string>isVisible</string>

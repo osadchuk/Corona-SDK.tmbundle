@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>addEventListener("${1:event_name}", ${2:function})</string>
+	<string>timer.performWithDelay(${1:delay_in_milliseconds}, ${2:function})</string>
 	<key>name</key>
-	<string>addEventListener</string>
+	<string>timer.performWithDelay</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>addEventListener</string>
+	<string>timer.performWithDelay</string>
 	<key>uuid</key>
-	<string>CD4C09C5-A81D-444A-89F2-FE2B332B4FF1</string>
+	<string>37D9ADCE-32B8-4440-9A91-71C2AD356638</string>
 </dict>
 </plist>

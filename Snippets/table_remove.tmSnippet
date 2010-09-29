@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>addEventListener("${1:event_name}", ${2:function})</string>
+	<string>table.remove(${1:table_name}, ${2:position_to_remove})</string>
 	<key>name</key>
-	<string>addEventListener</string>
+	<string>table.remove</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>addEventListener</string>
+	<string>table.remove</string>
 	<key>uuid</key>
-	<string>CD4C09C5-A81D-444A-89F2-FE2B332B4FF1</string>
+	<string>615385B9-96C6-4127-9B35-7F1176D468E1</string>
 </dict>
 </plist>

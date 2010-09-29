@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>addEventListener("${1:event_name}", ${2:function})</string>
+	<string>setTextColor(${1:r}, ${2:g}, ${3:b}, ${4:[alpha]})</string>
 	<key>name</key>
-	<string>addEventListener</string>
+	<string>setTextColor</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>addEventListener</string>
+	<string>setTextColor</string>
 	<key>uuid</key>
-	<string>CD4C09C5-A81D-444A-89F2-FE2B332B4FF1</string>
+	<string>B1757811-8FE6-4CAB-AEAD-5B1BCA6CF333</string>
 </dict>
 </plist>

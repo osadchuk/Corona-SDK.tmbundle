@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>removeEventListener("${1:event_name}", ${2:callback_function})</string>
+	<string>removeEventListener("${1:event_name}", ${2:function})</string>
 	<key>name</key>
 	<string>removeEventListener</string>
 	<key>scope</key>

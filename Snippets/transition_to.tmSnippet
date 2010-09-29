@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>transition.to(${1:object}, {time = ${2:seconds}, ${3:property} = ${4:value}, onComplete = ${5:function}})</string>
+	<string>transition.to(${1:object}, {time = ${2:milliseconds}, ${3:property} = ${4:value}, onComplete = ${5:function}})</string>
 	<key>name</key>
 	<string>transition.to</string>
 	<key>scope</key>
