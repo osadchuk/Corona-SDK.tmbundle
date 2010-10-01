@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>timer.performWithDelay(${1:delay_in_milliseconds}, ${2:callback_function})</string>
+	<key>name</key>
+	<string>timer.performWithDelay</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>timer.performWithDelay</string>
+	<key>uuid</key>
+	<string>D73074D3-8279-401E-A12C-E2444138F3D0</string>
+</dict>
+</plist>

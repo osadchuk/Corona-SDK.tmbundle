@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>timer.cancel(${1:timerID})</string>
+	<key>name</key>
+	<string>timer.cancel</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>timer.cancel</string>
+	<key>uuid</key>
+	<string>7C4B4182-2527-4D15-AAA8-6BB3B85A89FF</string>
+</dict>
+</plist>
