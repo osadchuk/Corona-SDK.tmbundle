@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sprite.newSpriteSet(${1:spriteSheet}, ${2:startFrame}, ${3:frameCount})</string>
+	<key>name</key>
+	<string>sprite.newSpriteSet</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>sprite.newSpriteSet</string>
+	<key>uuid</key>
+	<string>0EA8B53B-50B6-4200-822E-4C11B7AEFA29</string>
+</dict>
+</plist>

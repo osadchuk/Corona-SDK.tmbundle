@@ -20,13 +20,13 @@
 			<string>insert</string>
 			<string>remove</string>
 			<string>removeSelf</string>
-			<string>TopLeftReferencePoint</string>
-			<string>TopRightReferencePoint</string>
-			<string>TopCenterReferencePoint</string>
-			<string>CenterReferencePoint</string>
-			<string>BottomLeftReferencePoint</string>
-			<string>BottomRightReferencePoint</string>
-			<string>BottomCenterReferencePoint</string>
+			<string>display.TopLeftReferencePoint</string>
+			<string>display.TopRightReferencePoint</string>
+			<string>display.TopCenterReferencePoint</string>
+			<string>display.CenterReferencePoint</string>
+			<string>display.BottomLeftReferencePoint</string>
+			<string>display.BottomRightReferencePoint</string>
+			<string>display.BottomCenterReferencePoint</string>
 			<string>alpha</string>
 			<string>height</string>
 			<string>isVisible</string>
@@ -59,11 +59,18 @@
 			<string>setFocus</string>
 			<string>getCurrentStage</string>
 			<string>setStatusBar</string>
-			<string>contentWidth</string>
-			<string>contentHeight</string>
-			<string>viewableContentWidth</string>
-			<string>viewableContentHeight</string>
+			<string>display.contentWidth</string>
+			<string>display.contentHeight</string>
+			<string>display.viewableContentWidth</string>
+			<string>display.viewableContentHeight</string>
 			<string>statusBarHeight</string>
+			<string>sprite.newSpriteSheet</string>
+			<string>sprite.newSpriteSet</string>
+			<string>sprite.add</string>
+			<string>sprite</string>
+			<string>prepare</string>
+			<string>play</string>
+			<string>pause</string>
 		</array>
 	</dict>
 	<key>uuid</key>
