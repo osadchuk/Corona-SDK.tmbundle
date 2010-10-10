@@ -19,7 +19,7 @@
 			<string>removeEventListener</string>
 			<string>insert</string>
 			<string>remove</string>
-			<string>removeSelf</string>
+			<string>removeSelf()</string>
 			<string>display.TopLeftReferencePoint</string>
 			<string>display.TopRightReferencePoint</string>
 			<string>display.TopCenterReferencePoint</string>
@@ -59,10 +59,10 @@
 			<string>setFocus</string>
 			<string>getCurrentStage</string>
 			<string>setStatusBar</string>
-			<string>display.contentWidth</string>
-			<string>display.contentHeight</string>
-			<string>display.viewableContentWidth</string>
-			<string>display.viewableContentHeight</string>
+			<string>contentWidth</string>
+			<string>contentHeight</string>
+			<string>viewableContentWidth</string>
+			<string>viewableContentHeight</string>
 			<string>statusBarHeight</string>
 			<string>sprite.newSpriteSheet</string>
 			<string>sprite.newSpriteSet</string>
@@ -71,6 +71,105 @@
 			<string>prepare</string>
 			<string>play</string>
 			<string>pause</string>
+			<string>media</string>
+			<string>newEventSound</string>
+			<string>playEventSound</string>
+			<string>playSound</string>
+			<string>stopSound</string>
+			<string>pauseSound</string>
+			<string>concat</string>
+			<string>insert</string>
+			<string>maxn</string>
+			<string>sort</string>
+			<string>close</string>
+			<string>flush</string>
+			<string>input</string>
+			<string>lines</string>
+			<string>open</string>
+			<string>output</string>
+			<string>popen</string>
+			<string>read</string>
+			<string>tmpfile</string>
+			<string>type</string>
+			<string>write</string>
+			<string>assert</string>
+			<string>error</string>
+			<string>getfenv</string>
+			<string>getmetatable</string>
+			<string>ipairs</string>
+			<string>next</string>
+			<string>pairs</string>
+			<string>pcall</string>
+			<string>print</string>
+			<string>rawequal</string>
+			<string>rawget</string>
+			<string>rawset</string>
+			<string>select</string>
+			<string>setfenv</string>
+			<string>setmetatable</string>
+			<string>tonumber</string>
+			<string>tostring</string>
+			<string>math.abs</string>
+			<string>math.acos</string>
+			<string>math.asin</string>
+			<string>math.atan</string>
+			<string>math.atan2</string>
+			<string>math.ceil</string>
+			<string>math.cos</string>
+			<string>math.cosh</string>
+			<string>math.deg</string>
+			<string>math.exp</string>
+			<string>math.floor</string>
+			<string>math.fmod</string>
+			<string>math.frexp</string>
+			<string>math.huge</string>
+			<string>math.ldexp</string>
+			<string>math.log</string>
+			<string>math.log10</string>
+			<string>math.max</string>
+			<string>math.min</string>
+			<string>math.modf</string>
+			<string>math.pi</string>
+			<string>math.pow</string>
+			<string>math.rad</string>
+			<string>math.random</string>
+			<string>math.randomseed</string>
+			<string>math.sin</string>
+			<string>math.sinh</string>
+			<string>math.sqrt</string>
+			<string>math.tan</string>
+			<string>math.tanh</string>
+			<string>module</string>
+			<string>require</string>
+			<string>os.clock</string>
+			<string>os.date</string>
+			<string>os.difftime</string>
+			<string>os.exit</string>
+			<string>os.remove</string>
+			<string>os.rename</string>
+			<string>os.time</string>
+			<string>string.byte</string>
+			<string>string.char</string>
+			<string>string.find</string>
+			<string>string.format</string>
+			<string>string.gmatch</string>
+			<string>string.gsub</string>
+			<string>string.len</string>
+			<string>string.lower</string>
+			<string>string.match</string>
+			<string>string.rep</string>
+			<string>string.reverse</string>
+			<string>string.sub</string>
+			<string>string.upper</string>
+			<string>crypto.digest</string>
+			<string>crypto.hmac</string>
+			<string>crypto.md4</string>
+			<string>crypto.md5</string>
+			<string>crypto.sha1</string>
+			<string>crypto.sha224</string>
+			<string>crypto.sha256</string>
+			<string>crypto.sha384</string>
+			<string>crypto.sha512</string>
 		</array>
 	</dict>
 	<key>uuid</key>
