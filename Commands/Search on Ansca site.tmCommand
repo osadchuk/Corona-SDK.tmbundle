@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>if [ "" != "$TM_SELECTED_TEXT" ] 
+then open http://developer.anscamobile.com/search/node/$TM_SELECTED_TEXT
+else open http://developer.anscamobile.com/search/node/$TM_CURRENT_WORD
+fi
+</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@D</string>
+	<key>name</key>
+	<string>Search on Ansca site</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>uuid</key>
+	<string>2B4867C6-33C1-453A-9FCB-16A0DB7A294E</string>
+</dict>
+</plist>
