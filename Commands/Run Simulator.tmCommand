@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+CORONA_SIM_PATH="/Applications/CoronaSDK/simulator"
+
+# In order for the simulator relaunch to work, "Enable access for assistive devices" must be selected in System Preferences &gt; Universal Access.
+
+osascript &lt;&lt;- APPLESCRIPT
+
+	on appIsRunning(appName)
+		tell application "System Events" to (name of processes) contains appName
+	end appIsRunning
+
+	on selectAppMenuItem(app_name, menu_name, menu_item)
+		 try
+		 -- bring the target application to the front
+			tell application app_name
+				 activate
+ 			end tell
+			tell application "System Events"
+ 				tell process app_name
+ 					tell menu bar 1
+ 						tell menu bar item menu_name
+ 							tell menu menu_name
+ 								click menu item menu_item
+ 							end tell
+ 						end tell
+ 					end tell
+ 				end tell
+ 			end tell
+ 			return true
+ 			on error error_message
+ 			return false
+ 		end try
+	end selectAppMenuItem
+
+	if appIsRunning("Corona Simulator") then
+		selectAppMenuItem("Corona Simulator","File","Relaunch")
+	else
+		tell application "Terminal"
+		do script "$CORONA_SIM_PATH $TM_DIRECTORY"
+		end tell
+	end if
+
+APPLESCRIPT</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Run Simulator</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>uuid</key>
+	<string>1831E774-8AF9-4EF0-BE93-11B077CC4DC2</string>
+</dict>
+</plist>
