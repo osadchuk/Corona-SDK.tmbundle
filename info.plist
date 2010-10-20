@@ -2,6 +2,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>1831E774-8AF9-4EF0-BE93-11B077CC4DC2</string>
+			<string>E2D1F434-A472-4185-9933-4D9408C6C4D0</string>
+			<string>2B4867C6-33C1-453A-9FCB-16A0DB7A294E</string>
+			<string>0CEE4504-F8F1-4A98-AC7B-AA679CAAAB55</string>
+			<string>082D9465-0CEF-40DB-9B1C-34940D38F4F0</string>
+			<string>A75263F5-C971-42F2-8FAC-83829AD945DE</string>
+			<string>B1FDD74B-F037-45B7-AA61-7CB56BFA67CD</string>
+			<string>3E0EEDB8-2C15-4703-939B-9334714B3A8E</string>
+			<string>F4A541EB-8C83-4EFB-97A7-F780807AC23A</string>
+			<string>8E68AA99-64F4-4D36-AF80-D7D0B3DCD041</string>
+			<string>2052FA2D-5830-4665-8C90-01D0C7E04991</string>
+			<string>615385B9-96C6-4127-9B35-7F1176D468E1</string>
+			<string>CD4C09C5-A81D-444A-89F2-FE2B332B4FF1</string>
+			<string>FFF4FF36-3DBF-4B66-BAA4-800E4046D6E9</string>
+			<string>25495BEF-4928-42D3-BBB4-D0C56936B9DD</string>
+			<string>0DE89ECA-3885-487D-9C38-60E93CE1FD2A</string>
+			<string>58EC5F1F-655C-417C-A807-32572640CEA8</string>
+			<string>ED6354A9-3E38-482B-9E40-033FA368EFA4</string>
+			<string>0239E566-934D-4C6C-B8FA-DA44E9E45876</string>
+			<string>93CADF59-CBCA-43A1-85CE-A603526C612E</string>
+			<string>B1757811-8FE6-4CAB-AEAD-5B1BCA6CF333</string>
+			<string>C9495588-C288-4FE7-8582-E4A97B64CF03</string>
+			<string>0EA8B53B-50B6-4200-822E-4C11B7AEFA29</string>
+			<string>718C0D4C-8F8A-439D-A062-82692457EF41</string>
+			<string>37D9ADCE-32B8-4440-9A91-71C2AD356638</string>
+			<string>D73074D3-8279-401E-A12C-E2444138F3D0</string>
+			<string>7C4B4182-2527-4D15-AAA8-6BB3B85A89FF</string>
+			<string>D392798C-B015-43F6-903C-AB08FE8C9594</string>
+			<string>F1B104C0-60B4-4B39-8056-CD469303B2B7</string>
+			<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>Corona SDK</string>
 	<key>ordering</key>

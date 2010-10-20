@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>physics.setDrawMode("${1:debug, hybrid, or normal}")	</string>
+	<key>name</key>
+	<string>physics.setDrawMode</string>
+	<key>tabTrigger</key>
+	<string>physics.setDrawMode</string>
+	<key>uuid</key>
+	<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+</dict>
+</plist>

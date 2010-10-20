@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>media.playEventSound("${1:audio_file}", onComplete = ${2:callback_function})</string>
+	<key>name</key>
+	<string>media.playEventSound</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>media.playEventSound</string>
+	<key>uuid</key>
+	<string>F1B104C0-60B4-4B39-8056-CD469303B2B7</string>
+</dict>
+</plist>
