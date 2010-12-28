@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sprite.newSprite(${1:spriteSet})</string>
+	<key>name</key>
+	<string>sprite.newSprite</string>
+	<key>tabTrigger</key>
+	<string>sprite.newSprite</string>
+	<key>uuid</key>
+	<string>92446AE7-94DE-438C-AB8E-7E9CEFD8F6EC</string>
+</dict>
+</plist>
