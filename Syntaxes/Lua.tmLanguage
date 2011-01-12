@@ -225,6 +225,48 @@
 			<key>name</key>
 			<string>keyword.operator.lua</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;![^.]\.|:)\b(store\.(init|loadProducts|purchase|restore)|display\.(newCircle|newGroup|newImage|newImageRect|newLine|newRect|newRoundedRect|newText|captureScreen|getCurrentStage|save|setDefault|setStatusBar)|sprite\.(newSpriteSheet|newSpriteSet|newSprite|add|newSpriteSheetFromData)|analytics\.(init|logEvent)|easing\.(inExpo|inOutExpo|inOutQuad|inQuad|linear|outExpo|outExpo|outQuad)|transition\.(cancel|dissolve|from|to)|facebook\.(login|logout|request|showDialog)|media\.(pauseSound|newRecording|newEventSound|getSoundVolume|playEventSound|playSound|playVideo|setSoundVolume|show|stopSound)|native\.(cancelWebPopup|showWebPopup|newTextField|newTextBox|cancelAlert|getFontNames|newFont|setActivityIndicator|setKeyboardFocus|showAlert)|timer\.(cancel|performWithDelay)|openfeint\.(downloadBlob|init|launchDashboard|setHighScore|unlockAchievement|uploadBlob)|os\.(clock|date|difftime|execute|exit|remove|rename|time)|physics\.(addBody|newJoint)|store\.(finishTransaction|init|loadProducts|purchase|restore)|audio\.(dispose|fade|fadeOut|findFreeChannel|getDuration|getMaxVolume|getMinVolume|getVolume|isChannelActive|isChannelPaused|isChannelPlaying|loadSound|loadStream|pause|play|reserveChannels|resume|rewind|seek|setMaxVolume|setMinVolume|setVolume|stop|stopWithDelay)|movieclip\.(newAnim)|crypto\.(digest|hmac))\b(?=[( {])</string>
+			<key>name</key>
+			<string>support.function.corona.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(x|xOrigin|xReference|xScale|y|yOrigin|yReference|yScale|align|font|hasBackground|size|text|inputType|isSecure|dampingRatio|frequency|isLimitEnabled|isMotorEnabled|jointAngle|jointSpeed|jointTranslation|length|length1|length2|maxForce|maxMotorForce|maxMotorTorque|maxTorque|motorForce|motorSpeed|motorTorque|store\.(canMakePurchases)|alpha|contentBounds|height|isHitTestable|isVisible|length|parent|rotation|width|numChildren|size|strokeWidth)\b</string>
+			<key>name</key>
+			<string>keyword.corona.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(display\.(contentCenterX|contentCenterY|contentHeight|contentScaleX|contentScaleY|contentWidth|screenOriginX|screenOriginY|statusBarHeight|viewableContentHeight|viewableContentWidth|stageHeight|stageWidth|stageBounds|HiddenStatusBar))\b</string>
+			<key>name</key>
+			<string>keyword.corona.display.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(animating|currentFrame|sequence|addEventListener|pause|play|prepare|dispose)\b</string>
+			<key>name</key>
+			<string>keyword.corona.sprite.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(angularDamping|angularVelocity|bodyType|isAwake|isBodyActive|isBullet|isFixedRotation|isSleepingAllowed|linearDamping)\b</string>
+			<key>name</key>
+			<string>keyword.corona.physics.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(audio\.(freeChannels|reservedChannels|totalChannels|unreservedFreeChannels|unreservedUsedChannels|usedChannels))\b</string>
+			<key>name</key>
+			<string>keyword.corona.audio.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(crypto\.(md4|md5|sha1|sha224|sha256|sha384|sha512))\b</string>
+			<key>name</key>
+			<string>keyword.corona.crypto.lua</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.lua</string>
