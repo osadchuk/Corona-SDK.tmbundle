@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.newImageRect( ${1:[parentGroup], }"${2:path_to_image}, "${3:[baseDirectory], }${4:width, }${5:height} )</string>
+	<key>name</key>
+	<string>display.newImageRect</string>
+	<key>tabTrigger</key>
+	<string>display.newImageRect</string>
+	<key>uuid</key>
+	<string>C0796052-1A4C-4BAE-956E-B6C06FEA3B6A</string>
+</dict>
+</plist>

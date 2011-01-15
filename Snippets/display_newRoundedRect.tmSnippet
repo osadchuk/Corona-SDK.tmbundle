@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display.newRoundedRect( ${1:left}, ${2:top}, ${3:width}, ${4:height}, ${5:cornerRadius} )</string>
+	<string>display.newRoundedRect( ${1:[parentGroup], }${2:left}, ${3:top}, ${4:width}, ${5:height}, ${6:cornerRadius} )</string>
 	<key>name</key>
 	<string>display.newRoundedRect</string>
 	<key>scope</key>

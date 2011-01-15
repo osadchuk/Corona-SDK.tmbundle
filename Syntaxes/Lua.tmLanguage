@@ -233,6 +233,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?&lt;![^.]\.|:)\b(\:(setTextColor|contentToLocal|dispatchEvent|getParent|localToContent|removeEventListener|removeSelf|rotate|scale|setReferencePoint|toBack|toFront |translate|setTextColor|setFillColor|setStrokeColor|getSampleRate|getTunerFrequency|getTunerVolume|isRecording|setSampleRate|startRecording|startTuner|stopRecording|stopTuner|previousFrame|reverse|setDrag |setLabels|stop|stopAtFrame|insert|remove|applyAngularImpulse|applyForce|applyLinearImpulse|applyTorque|getLinearVelocity|resetMassData|setLinearVelocity|getAnchorA|getAnchorB|getLimits|getReactionForce|getRotationLimits|setLimits|setRotationLimits)|stage\:(setFocus)|file\:(close|flush|lines|read|seek|setvbuf|write))\b(?=[( {])</string>
+			<key>name</key>
+			<string>support.function.corona.colons.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(x|xOrigin|xReference|xScale|y|yOrigin|yReference|yScale|align|font|hasBackground|size|text|inputType|isSecure|dampingRatio|frequency|isLimitEnabled|isMotorEnabled|jointAngle|jointSpeed|jointTranslation|length|length1|length2|maxForce|maxMotorForce|maxMotorTorque|maxTorque|motorForce|motorSpeed|motorTorque|store\.(canMakePurchases)|alpha|contentBounds|height|isHitTestable|isVisible|length|parent|rotation|width|numChildren|size|strokeWidth)\b</string>
 			<key>name</key>
 			<string>keyword.corona.lua</string>
@@ -266,6 +272,12 @@
 			<string>\b(crypto\.(md4|md5|sha1|sha224|sha256|sha384|sha512))\b</string>
 			<key>name</key>
 			<string>keyword.corona.crypto.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(event\.(invalidProducts|name|products|transaction|isShake|name|xGravity|xInstant|yGravity|yInstant|zGravity|zInstant|channel|completed|handle|phase|action|index|name|target|name|time|geographic|magnetic|name|accuracy|altitude|direction|errorCode|errorMessage|latitude|longitude|name|speed|time|delta|name|type|force|friction|object1|object2|other|other|phase|sprite|name|type|count|name|source|time|id|phase|time|xStart|yStart|errorCode|errorMessage|name|url))\b</string>
+			<key>name</key>
+			<string>keyword.corona.event.lua</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

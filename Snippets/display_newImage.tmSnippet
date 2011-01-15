@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display.newImage( "${1:path_to_image}" )</string>
+	<string>display.newImage( ${1:[parentGroup], }"${2:filename}", ${3:[baseDirectory], }${4:left, }${5:top, }${6:isFullResolution} )</string>
 	<key>name</key>
 	<string>display.newImage</string>
 	<key>scope</key>

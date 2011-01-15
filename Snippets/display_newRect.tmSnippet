@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display.newRect( ${1:left}, ${2:top}, ${3:width}, ${4:height} )</string>
+	<string>display.newRect( ${1:[parentGroup], }${2:left}, ${3:top}, ${4:width}, ${5:height} )</string>
 	<key>name</key>
 	<string>display.newRect</string>
 	<key>scope</key>

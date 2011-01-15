@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display.newText("${1:string}", ${2:x}, ${3:y}, ${4:font}, ${5:size})</string>
+	<string>display.newText(${1:[parentGroup], }"${2:string}", ${3:x}, ${4:y}, ${5:font}, ${6:size})</string>
 	<key>name</key>
 	<string>display.newText</string>
 	<key>scope</key>

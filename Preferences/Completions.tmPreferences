@@ -8,22 +8,324 @@
 	<dict>
 		<key>completions</key>
 		<array>
+			<string>abs</string>
+			<string>accuracy</string>
+			<string>acos</string>
+			<string>action</string>
+			<string>add</string>
+			<string>addBody</string>
 			<string>addEventListener</string>
 			<string>align</string>
 			<string>alpha</string>
+			<string>altitude</string>
 			<string>angularVelocity</string>
 			<string>animating</string>
 			<string>applyAngularImpulse</string>
 			<string>applyForce</string>
 			<string>applyLinearImpulse</string>
 			<string>applyTorque</string>
+			<string>asin</string>
 			<string>assert</string>
+			<string>atan</string>
+			<string>atan2</string>
 			<string>body</string>
 			<string>bodyType</string>
+			<string>BottomCenterReferencePoint</string>
+			<string>BottomLeftReferencePoint</string>
+			<string>BottomRightReferencePoint</string>
+			<string>byte</string>
+			<string>cancel</string>
+			<string>cancelAlert</string>
+			<string>cancelWebPopup</string>
+			<string>captureScreen</string>
+			<string>ceil</string>
+			<string>CenterReferencePoint</string>
+			<string>char</string>
+			<string>clock</string>
 			<string>close</string>
 			<string>concat</string>
 			<string>contentHeight</string>
 			<string>contentWidth</string>
+			<string>cos</string>
+			<string>cosh</string>
+			<string>count</string>
+			<string>currentFrame</string>
+			<string>dampingRatio</string>
+			<string>date</string>
+			<string>deg</string>
+			<string>delta</string>
+			<string>difftime</string>
+			<string>digest</string>
+			<string>direction</string>
+			<string>dispatchEvent</string>
+			<string>display</string>
+			<string>dispose</string>
+			<string>dissolve</string>
+			<string>downloadBlob</string>
+			<string>error</string>
+			<string>errorCode</string>
+			<string>errorMessage</string>
+			<string>execute</string>
+			<string>exit</string>
+			<string>exp</string>
+			<string>find</string>
+			<string>floor</string>
+			<string>flush</string>
+			<string>fmod</string>
+			<string>font</string>
+			<string>force</string>
+			<string>format</string>
+			<string>frequency</string>
+			<string>frexp</string>
+			<string>friction</string>
+			<string>from</string>
+			<string>geographic</string>
+			<string>getAnchorA</string>
+			<string>getAnchorB</string>
+			<string>getCurrentStage</string>
+			<string>getfenv</string>
+			<string>getFontNames</string>
+			<string>getInfo</string>
+			<string>getLimits</string>
+			<string>getLinearVelocity</string>
+			<string>getmetatable</string>
+			<string>getParent</string>
+			<string>getPreference</string>
+			<string>getReactionForce</string>
+			<string>getRotationLimits</string>
+			<string>getSampleRate</string>
+			<string>getSoundVolume</string>
+			<string>getTimer</string>
+			<string>getTunerFrequency</string>
+			<string>getTunerVolume</string>
+			<string>gmatch</string>
+			<string>group</string>
+			<string>gsub</string>
+			<string>hasBackground</string>
+			<string>height</string>
+			<string>hmac</string>
+			<string>huge</string>
+			<string>id</string>
+			<string>index</string>
+			<string>inExpo</string>
+			<string>init</string>
+			<string>inOutExpo</string>
+			<string>inOutQuad</string>
+			<string>input</string>
+			<string>inputType</string>
+			<string>inQuad</string>
+			<string>insert</string>
+			<string>ipairs</string>
+			<string>isAwake</string>
+			<string>isBodyActive</string>
+			<string>isBullet</string>
+			<string>isFixedRotation</string>
+			<string>isHitTestable</string>
+			<string>isLimitEnabled</string>
+			<string>isMotorEnabled</string>
+			<string>isRecording</string>
+			<string>isSecure</string>
+			<string>isShake</string>
+			<string>isSleepingAllowed</string>
+			<string>isVisible</string>
+			<string>joint</string>
+			<string>jointAngle</string>
+			<string>jointSpeed</string>
+			<string>jointTranslation</string>
+			<string>latitude</string>
+			<string>launchDashboard</string>
+			<string>ldexp</string>
+			<string>len</string>
+			<string>length</string>
+			<string>linear</string>
+			<string>linearDamping</string>
+			<string>lines</string>
+			<string>loaded</string>
+			<string>loaders</string>
+			<string>log</string>
+			<string>log10</string>
+			<string>longitude</string>
+			<string>lower</string>
+			<string>magnetic</string>
+			<string>match</string>
+			<string>max</string>
+			<string>maxForce</string>
+			<string>maxMotorForce</string>
+			<string>maxMotorTorque</string>
+			<string>maxn</string>
+			<string>maxTorque</string>
+			<string>md4</string>
+			<string>md5</string>
+			<string>media</string>
+			<string>memoryWarning</string>
+			<string>min</string>
+			<string>modf</string>
+			<string>module</string>
+			<string>motorForce</string>
+			<string>motorSpeed</string>
+			<string>motorTorque</string>
+			<string>movieclip.newAnim</string>
+			<string>name</string>
+			<string>newCircle</string>
+			<string>newEventSound</string>
+			<string>newFont</string>
+			<string>newGroup()</string>
+			<string>newImage</string>
+			<string>newImageRect</string>
+			<string>newJoint</string>
+			<string>newLine</string>
+			<string>newRecording</string>
+			<string>newRect</string>
+			<string>newRoundedRect</string>
+			<string>newSprite</string>
+			<string>newSpriteSet</string>
+			<string>newSpriteSheet</string>
+			<string>newSpriteSheetFromData</string>
+			<string>newText</string>
+			<string>newTextBox</string>
+			<string>newTextField</string>
+			<string>next</string>
+			<string>nextFrame</string>
+			<string>numChildren</string>
+			<string>object1</string>
+			<string>object2</string>
+			<string>open</string>
+			<string>openURL</string>
+			<string>orientation</string>
+			<string>other</string>
+			<string>outExpo</string>
+			<string>output</string>
+			<string>outQuad</string>
+			<string>pairs</string>
+			<string>parent</string>
+			<string>pathForFile</string>
+			<string>pause</string>
+			<string>pauseSound</string>
+			<string>pcall</string>
+			<string>phase</string>
+			<string>pi</string>
+			<string>play</string>
+			<string>playEventSound</string>
+			<string>playSound</string>
+			<string>playVideo</string>
+			<string>popen</string>
+			<string>pow</string>
+			<string>prepare</string>
+			<string>previousFrame</string>
+			<string>print</string>
+			<string>rad</string>
+			<string>random</string>
+			<string>randomseed</string>
+			<string>rawequal</string>
+			<string>rawget</string>
+			<string>rawset</string>
+			<string>read</string>
+			<string>remove</string>
+			<string>removeEventListener</string>
+			<string>removeSelf()</string>
+			<string>rename</string>
+			<string>rep</string>
+			<string>require</string>
+			<string>resetMassData</string>
+			<string>reverse</string>
+			<string>rotate</string>
+			<string>rotation</string>
+			<string>save</string>
+			<string>scale</string>
+			<string>seeall</string>
+			<string>select</string>
+			<string>sequence</string>
+			<string>setAccelerometerInterval</string>
+			<string>setActivityIndicator</string>
+			<string>setDrag</string>
+			<string>setfenv</string>
+			<string>setFillColor</string>
+			<string>setFocus</string>
+			<string>setHighScore</string>
+			<string>setIdleTimer</string>
+			<string>setKeyboardFocus</string>
+			<string>setLabels</string>
+			<string>setLimits</string>
+			<string>setLinearVelocity</string>
+			<string>setLocationAccuracy</string>
+			<string>setLocationThreshold</string>
+			<string>setmetatable</string>
+			<string>setReferencePoint</string>
+			<string>setRotationLimits</string>
+			<string>setSampleRate</string>
+			<string>setSoundVolume</string>
+			<string>setStatusBar</string>
+			<string>setStrokeColor</string>
+			<string>setTextColor</string>
+			<string>sha1</string>
+			<string>sha224</string>
+			<string>sha256</string>
+			<string>sha384</string>
+			<string>sha512</string>
+			<string>show</string>
+			<string>showAlert</string>
+			<string>showWebPopup</string>
+			<string>sin</string>
+			<string>sinh</string>
+			<string>size</string>
+			<string>sort</string>
+			<string>source</string>
+			<string>speed</string>
+			<string>sprite</string>
+			<string>sqrt</string>
+			<string>stage:setFocus</string>
+			<string>stageBounds</string>
+			<string>stageHeight</string>
+			<string>stageWidth</string>
+			<string>startRecording</string>
+			<string>startTuner</string>
+			<string>statusBarHeight</string>
+			<string>stop</string>
+			<string>stopAtFrame</string>
+			<string>stopRecording</string>
+			<string>stopSound</string>
+			<string>stopTuner</string>
+			<string>strokeWidth</string>
+			<string>sub</string>
+			<string>tan</string>
+			<string>tanh</string>
+			<string>target</string>
+			<string>text</string>
+			<string>time</string>
+			<string>tmpfile</string>
+			<string>to</string>
+			<string>tonumber</string>
+			<string>TopCenterReferencePoint</string>
+			<string>TopLeftReferencePoint</string>
+			<string>TopRightReferencePoint</string>
+			<string>tostring</string>
+			<string>translate</string>
+			<string>type</string>
+			<string>unlockAchievement</string>
+			<string>uploadBlob</string>
+			<string>upper</string>
+			<string>url</string>
+			<string>vibrate</string>
+			<string>viewableContentHeight</string>
+			<string>viewableContentWidth</string>
+			<string>width</string>
+			<string>write</string>
+			<string>x</string>
+			<string>xGravity</string>
+			<string>xInstant</string>
+			<string>xOrigin</string>
+			<string>xReference</string>
+			<string>xScale</string>
+			<string>xStart</string>
+			<string>y</string>
+			<string>yGravity</string>
+			<string>yInstant</string>
+			<string>yOrigin</string>
+			<string>yReference</string>
+			<string>yScale</string>
+			<string>yStart</string>
+			<string>zGravity</string>
+			<string>zInstant</string>
 			<string>crypto.digest</string>
 			<string>crypto.hmac</string>
 			<string>crypto.md4</string>
@@ -33,10 +335,6 @@
 			<string>crypto.sha256</string>
 			<string>crypto.sha384</string>
 			<string>crypto.sha512</string>
-			<string>currentFrame</string>
-			<string>dampingRatio</string>
-			<string>dispatchEvent</string>
-			<string>display</string>
 			<string>display.BottomCenterReferencePoint</string>
 			<string>display.BottomLeftReferencePoint</string>
 			<string>display.BottomRightReferencePoint</string>
@@ -46,7 +344,7 @@
 			<string>display.contentWidth</string>
 			<string>display.getCurrentStage</string>
 			<string>display.newCircle</string>
-			<string>display.newGroup</string>
+			<string>display.newGroup()</string>
 			<string>display.newImage</string>
 			<string>display.newImageRect</string>
 			<string>display.newLine</string>
@@ -61,7 +359,6 @@
 			<string>display.TopRightReferencePoint</string>
 			<string>display.viewableContentHeight</string>
 			<string>display.viewableContentWidth</string>
-			<string>dispose</string>
 			<string>easing.inExpo</string>
 			<string>easing.inOutExpo</string>
 			<string>easing.inOutQuad</string>
@@ -69,7 +366,6 @@
 			<string>easing.linear</string>
 			<string>easing.outExpo</string>
 			<string>easing.outQuad</string>
-			<string>error</string>
 			<string>event.accuracy</string>
 			<string>event.action</string>
 			<string>event.altitude</string>
@@ -114,28 +410,6 @@
 			<string>file:lines</string>
 			<string>file:read</string>
 			<string>file:write</string>
-			<string>flush</string>
-			<string>font</string>
-			<string>frequency</string>
-			<string>getAnchorA</string>
-			<string>getAnchorB</string>
-			<string>getCurrentStage</string>
-			<string>getfenv</string>
-			<string>getLimits</string>
-			<string>getLinearVelocity</string>
-			<string>getmetatable</string>
-			<string>getParent</string>
-			<string>getReactionForce</string>
-			<string>getRotationLimits</string>
-			<string>getSampleRate</string>
-			<string>getTunerFrequency</string>
-			<string>getTunerVolume</string>
-			<string>group</string>
-			<string>hasBackground</string>
-			<string>height</string>
-			<string>input</string>
-			<string>inputType</string>
-			<string>insert</string>
 			<string>io.close</string>
 			<string>io.flush</string>
 			<string>io.input</string>
@@ -145,24 +419,6 @@
 			<string>io.read</string>
 			<string>io.write</string>
 			<string>ipairs</string>
-			<string>isAwake</string>
-			<string>isBodyActive</string>
-			<string>isBullet</string>
-			<string>isFixedRotation</string>
-			<string>isHitTestable</string>
-			<string>isLimitEnabled</string>
-			<string>isMotorEnabled</string>
-			<string>isRecording</string>
-			<string>isSecure</string>
-			<string>isSleepingAllowed</string>
-			<string>isVisible</string>
-			<string>joint</string>
-			<string>jointAngle</string>
-			<string>jointSpeed</string>
-			<string>jointTranslation</string>
-			<string>length</string>
-			<string>linearDamping</string>
-			<string>lines</string>
 			<string>math.abs</string>
 			<string>math.acos</string>
 			<string>math.asin</string>
@@ -193,12 +449,6 @@
 			<string>math.sqrt</string>
 			<string>math.tan</string>
 			<string>math.tanh</string>
-			<string>maxForce</string>
-			<string>maxMotorForce</string>
-			<string>maxMotorTorque</string>
-			<string>maxn</string>
-			<string>maxTorque</string>
-			<string>media</string>
 			<string>media.getSoundVolume</string>
 			<string>media.newEventSound</string>
 			<string>media.newRecording</string>
@@ -209,12 +459,6 @@
 			<string>media.setSoundVolume</string>
 			<string>media.show</string>
 			<string>media.stopSound</string>
-			<string>memoryWarning</string>
-			<string>module</string>
-			<string>motorForce</string>
-			<string>motorSpeed</string>
-			<string>motorTorque</string>
-			<string>movieclip.newAnim</string>
 			<string>native.cancelAlert</string>
 			<string>native.cancelWebPopup</string>
 			<string>native.getFontNames</string>
@@ -225,16 +469,6 @@
 			<string>native.setKeyboardFocus</string>
 			<string>native.showAlert</string>
 			<string>native.showWebPopup</string>
-			<string>newCircle</string>
-			<string>newEventSound</string>
-			<string>newImage</string>
-			<string>newRect</string>
-			<string>newRoundedRect</string>
-			<string>newText</string>
-			<string>next</string>
-			<string>nextFrame</string>
-			<string>numChildren</string>
-			<string>open</string>
 			<string>openfeint.downloadBlob</string>
 			<string>openfeint.init</string>
 			<string>openfeint.launchDashboard</string>
@@ -249,74 +483,16 @@
 			<string>os.remove</string>
 			<string>os.rename</string>
 			<string>os.time</string>
-			<string>output</string>
 			<string>package.loaded</string>
 			<string>package.loaders</string>
 			<string>package.seeall</string>
-			<string>pairs</string>
-			<string>parent</string>
-			<string>pause</string>
-			<string>pauseSound</string>
-			<string>pcall</string>
 			<string>physics.addBody</string>
 			<string>physics.newJoint</string>
-			<string>play</string>
-			<string>playEventSound</string>
-			<string>playSound</string>
-			<string>popen</string>
-			<string>prepare</string>
-			<string>previousFrame</string>
-			<string>print</string>
-			<string>rawequal</string>
-			<string>rawget</string>
-			<string>rawset</string>
-			<string>read</string>
-			<string>remove</string>
-			<string>removeEventListener</string>
-			<string>removeSelf</string>
-			<string>removeSelf()</string>
-			<string>require</string>
-			<string>resetMassData</string>
-			<string>reverse</string>
-			<string>rotate</string>
-			<string>rotation</string>
-			<string>scale</string>
-			<string>select</string>
-			<string>sequence</string>
-			<string>setDrag</string>
-			<string>setfenv</string>
-			<string>setFillColor</string>
-			<string>setFocus</string>
-			<string>setLabels</string>
-			<string>setLimits</string>
-			<string>setLinearVelocity</string>
-			<string>setmetatable</string>
-			<string>setReferencePoint</string>
-			<string>setRotationLimits</string>
-			<string>setSampleRate</string>
-			<string>setStatusBar</string>
-			<string>setStrokeColor</string>
-			<string>setTextColor</string>
-			<string>size</string>
-			<string>sort</string>
-			<string>sprite</string>
 			<string>sprite.add</string>
 			<string>sprite.newSprite</string>
 			<string>sprite.newSpriteSet</string>
 			<string>sprite.newSpriteSheet</string>
 			<string>sprite.newSpriteSheetFromData</string>
-			<string>stage:setFocus</string>
-			<string>stageBounds</string>
-			<string>stageHeight</string>
-			<string>stageWidth</string>
-			<string>startRecording</string>
-			<string>startTuner</string>
-			<string>statusBarHeight</string>
-			<string>stop</string>
-			<string>stopAtFrame</string>
-			<string>stopRecording</string>
-			<string>stopSound</string>
-			<string>stopTuner</string>
 			<string>string.byte</string>
 			<string>string.char</string>
 			<string>string.find</string>
@@ -330,7 +506,6 @@
 			<string>string.reverse</string>
 			<string>string.sub</string>
 			<string>string.upper</string>
-			<string>strokeWidth</string>
 			<string>system.getInfo</string>
 			<string>system.getPreference</string>
 			<string>system.getTimer</string>
@@ -344,26 +519,10 @@
 			<string>system.vibrate</string>
 			<string>table.concat</string>
 			<string>table.insert</string>
-			<string>text</string>
-			<string>tmpfile</string>
-			<string>tonumber</string>
-			<string>tostring</string>
 			<string>transition.cancel</string>
 			<string>transition.dissolve</string>
 			<string>transition.from</string>
 			<string>transition.to</string>
-			<string>translate</string>
-			<string>type</string>
-			<string>viewableContentHeight</string>
-			<string>viewableContentWidth</string>
-			<string>width</string>
-			<string>write</string>
-			<string>xOrigin</string>
-			<string>xReference</string>
-			<string>xScale</string>
-			<string>yOrigin</string>
-			<string>yReference</string>
-			<string>yScale</string>
 		</array>
 	</dict>
 	<key>uuid</key>
