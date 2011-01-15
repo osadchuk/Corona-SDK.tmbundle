@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>media.newRecording(${1:[filePath]})</string>
+	<key>name</key>
+	<string>media.newRecording</string>
+	<key>tabTrigger</key>
+	<string>media.newRecording</string>
+	<key>uuid</key>
+	<string>B3B1B129-FCEA-4282-ABF2-F3FCA0F8B703</string>
+</dict>
+</plist>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>sprite.newSpriteSheet("${1:sprite.png}", ${2:frameWidth}, ${3:frameHeight})</string>
 	<key>name</key>
-	<string>sprite.newSpriteSheet</string>
+	<string>sprite.newSpriteSheet()</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>

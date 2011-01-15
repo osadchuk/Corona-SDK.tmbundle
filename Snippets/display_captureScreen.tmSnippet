@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.captureScreen(${1:saveToAlbum})</string>
+	<key>name</key>
+	<string>display.captureScreen</string>
+	<key>tabTrigger</key>
+	<string>display.captureScreen</string>
+	<key>uuid</key>
+	<string>FAFCBCE4-70C9-4565-AD27-1D926A8DEA12</string>
+</dict>
+</plist>

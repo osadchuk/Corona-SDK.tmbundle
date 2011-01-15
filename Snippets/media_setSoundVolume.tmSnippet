@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>media.setSoundVolume(${1:volume, 0 to 1})</string>
+	<key>name</key>
+	<string>media.setSoundVolume</string>
+	<key>tabTrigger</key>
+	<string>media.setSoundVolume</string>
+	<key>uuid</key>
+	<string>933E47E7-DA4D-4B47-BBDB-18182E077011</string>
+</dict>
+</plist>

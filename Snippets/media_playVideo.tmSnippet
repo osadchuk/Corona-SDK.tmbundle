@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>media.playVideo(${1:path} ${2:[, baseSource ]}${3:, showControls}${4:, listener})</string>
+	<key>name</key>
+	<string>media.playVideo</string>
+	<key>tabTrigger</key>
+	<string>media.playVideo</string>
+	<key>uuid</key>
+	<string>805EB98C-C9D4-45E3-9271-82D7EAD3BC8B</string>
+</dict>
+</plist>

@@ -82,22 +82,22 @@
 			<string>geographic</string>
 			<string>getAnchorA</string>
 			<string>getAnchorB</string>
-			<string>getCurrentStage</string>
+			<string>getCurrentStage()</string>
 			<string>getfenv</string>
 			<string>getFontNames</string>
 			<string>getInfo</string>
-			<string>getLimits</string>
+			<string>getLimits()</string>
 			<string>getLinearVelocity</string>
 			<string>getmetatable</string>
 			<string>getParent</string>
 			<string>getPreference</string>
-			<string>getReactionForce</string>
-			<string>getRotationLimits</string>
-			<string>getSampleRate</string>
-			<string>getSoundVolume</string>
+			<string>getReactionForce()</string>
+			<string>getRotationLimits()</string>
+			<string>getSampleRate()</string>
+			<string>getSoundVolume()</string>
 			<string>getTimer</string>
-			<string>getTunerFrequency</string>
-			<string>getTunerVolume</string>
+			<string>getTunerFrequency()</string>
+			<string>getTunerVolume()</string>
 			<string>gmatch</string>
 			<string>group</string>
 			<string>gsub</string>
@@ -123,7 +123,7 @@
 			<string>isHitTestable</string>
 			<string>isLimitEnabled</string>
 			<string>isMotorEnabled</string>
-			<string>isRecording</string>
+			<string>isRecording()</string>
 			<string>isSecure</string>
 			<string>isShake</string>
 			<string>isSleepingAllowed</string>
@@ -200,7 +200,7 @@
 			<string>parent</string>
 			<string>pathForFile</string>
 			<string>pause</string>
-			<string>pauseSound</string>
+			<string>pauseSound()</string>
 			<string>pcall</string>
 			<string>phase</string>
 			<string>pi</string>
@@ -237,6 +237,7 @@
 			<string>sequence</string>
 			<string>setAccelerometerInterval</string>
 			<string>setActivityIndicator</string>
+			<string>setDefault</string>
 			<string>setDrag</string>
 			<string>setfenv</string>
 			<string>setFillColor</string>
@@ -277,14 +278,14 @@
 			<string>stageBounds</string>
 			<string>stageHeight</string>
 			<string>stageWidth</string>
-			<string>startRecording</string>
-			<string>startTuner</string>
+			<string>startRecording()</string>
+			<string>startTuner()</string>
 			<string>statusBarHeight</string>
 			<string>stop</string>
 			<string>stopAtFrame</string>
-			<string>stopRecording</string>
-			<string>stopSound</string>
-			<string>stopTuner</string>
+			<string>stopRecording()</string>
+			<string>stopSound()</string>
+			<string>stopTuner()</string>
 			<string>strokeWidth</string>
 			<string>sub</string>
 			<string>tan</string>
@@ -342,7 +343,7 @@
 			<string>display.CenterReferencePoint</string>
 			<string>display.contentHeight</string>
 			<string>display.contentWidth</string>
-			<string>display.getCurrentStage</string>
+			<string>display.getCurrentStage()</string>
 			<string>display.newCircle</string>
 			<string>display.newGroup()</string>
 			<string>display.newImage</string>
@@ -351,7 +352,8 @@
 			<string>display.newRect</string>
 			<string>display.newRoundedRect</string>
 			<string>display.newText</string>
-			<string>display.save</string>
+			<string>display.save()</string>
+			<string>display.setDefault</string>
 			<string>display.setStatusBar</string>
 			<string>display.statusBarHeight</string>
 			<string>display.TopCenterReferencePoint</string>
@@ -449,16 +451,16 @@
 			<string>math.sqrt</string>
 			<string>math.tan</string>
 			<string>math.tanh</string>
-			<string>media.getSoundVolume</string>
+			<string>media.getSoundVolume()</string>
 			<string>media.newEventSound</string>
 			<string>media.newRecording</string>
-			<string>media.pauseSound</string>
+			<string>media.pauseSound()</string>
 			<string>media.playEventSound</string>
 			<string>media.playSound</string>
 			<string>media.playVideo</string>
 			<string>media.setSoundVolume</string>
 			<string>media.show</string>
-			<string>media.stopSound</string>
+			<string>media.stopSound()</string>
 			<string>native.cancelAlert</string>
 			<string>native.cancelWebPopup</string>
 			<string>native.getFontNames</string>

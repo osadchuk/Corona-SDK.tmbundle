@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>media.playEventSound("${1:audio_file}", onComplete = ${2:callback_function})</string>
+	<string>media.playEventSound("${1:audio_file}"${2:, [baseDirectory]}${3:, callback_function})</string>
 	<key>name</key>
 	<string>media.playEventSound</string>
 	<key>scope</key>

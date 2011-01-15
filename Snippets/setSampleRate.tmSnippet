@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-- make sure to call setSampleRate BEFORE calling startTuner()
+setSampleRate(${1:rate})</string>
+	<key>name</key>
+	<string>setSampleRate</string>
+	<key>tabTrigger</key>
+	<string>setSampleRate</string>
+	<key>uuid</key>
+	<string>2FB69453-0BD8-4C30-8E87-EE60ABD1B2D8</string>
+</dict>
+</plist>
