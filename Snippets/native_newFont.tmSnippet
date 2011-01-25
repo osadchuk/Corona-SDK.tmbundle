@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.newFont("${1:Font name}"${2:[, size]})</string>
+	<key>name</key>
+	<string>native.newFont</string>
+	<key>tabTrigger</key>
+	<string>native.newFont</string>
+	<key>uuid</key>
+	<string>A1954EAC-24E5-45DA-89F1-9642F70D97E9</string>
+</dict>
+</plist>

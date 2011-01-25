@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.newTextBox(${1:left}, ${2:top}, ${3:width}, ${4:height})</string>
+	<key>name</key>
+	<string>native.newTextBox</string>
+	<key>tabTrigger</key>
+	<string>native.newTextBox</string>
+	<key>uuid</key>
+	<string>6D828464-6538-4CA7-BA49-29D6B37A2DDE</string>
+</dict>
+</plist>

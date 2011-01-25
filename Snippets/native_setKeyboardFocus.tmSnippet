@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.setKeyboardFocus(${1:textField, or nil to dismiss keyboard})</string>
+	<key>name</key>
+	<string>native.setKeyboardFocus</string>
+	<key>tabTrigger</key>
+	<string>native.setKeyboardFocus</string>
+	<key>uuid</key>
+	<string>0F5E48C7-5128-467C-9F71-2DA241FB94FE</string>
+</dict>
+</plist>

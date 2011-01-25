@@ -251,13 +251,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(animating|currentFrame|sequence|addEventListener|pause|play|prepare|dispose)\b</string>
+			<string>\b(sprite\.(animating|currentFrame|sequence|addEventListener|pause|play|prepare|dispose))\b</string>
 			<key>name</key>
 			<string>keyword.corona.sprite.lua</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(angularDamping|angularVelocity|bodyType|isAwake|isBodyActive|isBullet|isFixedRotation|isSleepingAllowed|linearDamping)\b</string>
+			<string>\b(physics\.(angularDamping|angularVelocity|bodyType|isAwake|isBodyActive|isBullet|isFixedRotation|isSleepingAllowed|linearDamping))\b</string>
 			<key>name</key>
 			<string>keyword.corona.physics.lua</string>
 		</dict>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.setActivityIndicator(${1:true to show, false to hide})</string>
+	<key>name</key>
+	<string>native.setActivityIndicator</string>
+	<key>tabTrigger</key>
+	<string>native.setActivityIndicator</string>
+	<key>uuid</key>
+	<string>F590F34E-8C14-4941-AC7A-17E1769E3D80</string>
+</dict>
+</plist>

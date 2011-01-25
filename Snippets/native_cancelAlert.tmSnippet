@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.cancelAlert(${1:alertID})</string>
+	<key>name</key>
+	<string>native.cancelAlert</string>
+	<key>tabTrigger</key>
+	<string>native.cancelAlert</string>
+	<key>uuid</key>
+	<string>D7F675AE-0587-4CA3-A2FC-77E153C3D6A9</string>
+</dict>
+</plist>

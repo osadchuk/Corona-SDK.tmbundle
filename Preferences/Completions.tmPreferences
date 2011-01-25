@@ -36,7 +36,7 @@
 			<string>byte</string>
 			<string>cancel</string>
 			<string>cancelAlert</string>
-			<string>cancelWebPopup</string>
+			<string>cancelWebPopup()</string>
 			<string>captureScreen</string>
 			<string>ceil</string>
 			<string>CenterReferencePoint</string>
@@ -84,7 +84,7 @@
 			<string>getAnchorB</string>
 			<string>getCurrentStage()</string>
 			<string>getfenv</string>
-			<string>getFontNames</string>
+			<string>getFontNames()</string>
 			<string>getInfo</string>
 			<string>getLimits()</string>
 			<string>getLinearVelocity</string>
@@ -462,8 +462,8 @@
 			<string>media.show</string>
 			<string>media.stopSound()</string>
 			<string>native.cancelAlert</string>
-			<string>native.cancelWebPopup</string>
-			<string>native.getFontNames</string>
+			<string>native.cancelWebPopup()</string>
+			<string>native.getFontNames()</string>
 			<string>native.newFont</string>
 			<string>native.newTextBox</string>
 			<string>native.newTextField</string>

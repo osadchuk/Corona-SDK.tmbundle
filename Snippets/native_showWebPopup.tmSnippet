@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-- x, y, width, height are optional; if not used, popup is fullscreen
+native.showWebPopup(${1:x}, ${2:y}, ${3:width}, ${4:height}, "${5:url}"${6:[, options]})</string>
+	<key>name</key>
+	<string>native.showWebPopup</string>
+	<key>tabTrigger</key>
+	<string>native.showWebPopup</string>
+	<key>uuid</key>
+	<string>57A6F9D2-67A7-4B17-AB6A-89E044B3875F</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.showAlert("${1:title}", "${2:message}"${3:[, buttonLabels]}${4:[, listener]})</string>
+	<key>name</key>
+	<string>native.showAlert</string>
+	<key>tabTrigger</key>
+	<string>native.showAlert</string>
+	<key>uuid</key>
+	<string>C01DF0EC-48DF-4650-98A9-B8E74192E448</string>
+</dict>
+</plist>
