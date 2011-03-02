@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.stopWithDelay( ${1:duration}, {channel = ${2:c}} )</string>
+	<key>name</key>
+	<string>audio.stopWithDelay</string>
+	<key>tabTrigger</key>
+	<string>audio.stopWithDelay</string>
+	<key>uuid</key>
+	<string>F47FE59B-43B4-4FF6-ABCE-4CB7092A1AC9</string>
+</dict>
+</plist>

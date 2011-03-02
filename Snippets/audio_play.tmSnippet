@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.play( ${1:audioHandle}, { ${2:[channel=c]}${3:[, loops=l]}${4:[, duration=d]}${5:[, fadein=f]}${6:[, onComplete=o]} } )</string>
+	<key>name</key>
+	<string>audio.play</string>
+	<key>tabTrigger</key>
+	<string>audio.play</string>
+	<key>uuid</key>
+	<string>C2F187F7-E98A-465A-A629-D8847E5A3327</string>
+</dict>
+</plist>

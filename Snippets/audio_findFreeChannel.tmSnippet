@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.findFreeChannel( ${1:[startChannel]} )</string>
+	<key>name</key>
+	<string>audio.findFreeChannel</string>
+	<key>tabTrigger</key>
+	<string>audio.findFreeChannel</string>
+	<key>uuid</key>
+	<string>90739B9F-ACB1-4E47-B622-D061CE940C3B</string>
+</dict>
+</plist>

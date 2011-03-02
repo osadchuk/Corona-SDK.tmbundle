@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.rewind( ${1:[audioHandle]},{ channel=${2:c} } )</string>
+	<key>name</key>
+	<string>audio.rewind</string>
+	<key>tabTrigger</key>
+	<string>audio.rewind</string>
+	<key>uuid</key>
+	<string>307D4802-851E-43F5-A7C2-227C1190A615</string>
+</dict>
+</plist>

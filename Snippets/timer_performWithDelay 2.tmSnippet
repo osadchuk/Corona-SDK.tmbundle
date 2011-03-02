@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>timer.performWithDelay(${1:delay_in_milliseconds}, ${2:callback_function})</string>
+	<string>timer.performWithDelay(${1:delay_in_milliseconds}, ${2:callback_function}, ${3:iterations})</string>
 	<key>name</key>
 	<string>timer.performWithDelay</string>
 	<key>scope</key>

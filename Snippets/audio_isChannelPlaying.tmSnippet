@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.isChannelPlaying( ${1:channel} )</string>
+	<key>name</key>
+	<string>audio.isChannelPlaying</string>
+	<key>tabTrigger</key>
+	<string>audio.isChannelPlaying</string>
+	<key>uuid</key>
+	<string>E37AA807-C85F-47FB-B295-875DD24575CB</string>
+</dict>
+</plist>

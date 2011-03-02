@@ -1,0 +1,26 @@
+-- The following are typical values for a landscape-mode app. Edit at will!
+-- Supported values for orientation:	portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+-- Boolean plist properties take a Lua-style true/false setting
+-- Don't forget to set CFBundleIdentifier to something meaningful!
+
+settings = {
+	orientation = {
+		default = "landscapeRight",
+ 		supported = { "landscapeLeft", "landscapeRight" } 
+	},
+	
+	iphone = {
+		plist = {
+			UIStatusBarHidden = true, -- true or false
+			CFBundleShortVersionString = "1.0",
+			CFBundleVersion = "1.0.0",
+			CFBundleIdentifier = "com.company.app",
+			UIPrerenderedIcon = true, -- set to false if you want the gradient overlay
+			UIApplicationExitsOnSuspend = true,
+		}
+	},
+	
+	androidPermissions = {
+  	"android.permission.INTERNET",
+  },
+}

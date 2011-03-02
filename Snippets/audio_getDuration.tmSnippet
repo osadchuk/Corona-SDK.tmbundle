@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.getDuration( ${1:audioHandle} )</string>
+	<key>name</key>
+	<string>audio.getDuration</string>
+	<key>tabTrigger</key>
+	<string>audio.getDuration</string>
+	<key>uuid</key>
+	<string>7E51D8A2-030D-430C-BBBE-EDB2FCE39304</string>
+</dict>
+</plist>

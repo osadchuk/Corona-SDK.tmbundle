@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.pause( ${1:[channel]} )</string>
+	<key>name</key>
+	<string>audio.pause</string>
+	<key>tabTrigger</key>
+	<string>audio.pause</string>
+	<key>uuid</key>
+	<string>CDD4C893-D4D2-4BC2-BFC1-0DF2C5921070</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.reserveChannels( ${1:channels} )</string>
+	<key>name</key>
+	<string>audio.reserveChannels</string>
+	<key>tabTrigger</key>
+	<string>audio.reserveChannels</string>
+	<key>uuid</key>
+	<string>70ACEDE1-E4EE-4BDE-BD96-D5F0D195A9B1</string>
+</dict>
+</plist>

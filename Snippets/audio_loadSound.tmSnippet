@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.loadSound( ${1:audiofileName}${2:[, baseDir ]}  )</string>
+	<key>name</key>
+	<string>audio.loadSound</string>
+	<key>tabTrigger</key>
+	<string>audio.loadSound</string>
+	<key>uuid</key>
+	<string>BCD38A0F-48C8-4FF6-BF2A-0B6DC12EB3FB</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.seek( ${1:timeInMilliseconds}${2:, audioHandle}, { channel=${3:c} } )</string>
+	<key>name</key>
+	<string>audio.seek</string>
+	<key>tabTrigger</key>
+	<string>audio.seek</string>
+	<key>uuid</key>
+	<string>D7F30C28-22A5-46DD-BFC9-F6B8E9862345</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>audio.fadeOut( { channel = ${1:channel}, time = ${2:milliseconds} } )</string>
+	<key>name</key>
+	<string>audio.fadeOut</string>
+	<key>tabTrigger</key>
+	<string>audio.fadeOut</string>
+	<key>uuid</key>
+	<string>23EDDDEE-C0AD-47DE-B5D0-355A8D3631A0</string>
+</dict>
+</plist>
