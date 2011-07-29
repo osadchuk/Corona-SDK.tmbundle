@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.loadRemoteImage( ${1:url}, ${2:method}, ${3:listener} ${4:[, params]}, ${5:destFilename} ${6:[, baseDir]} ${7:[, x, y]} )</string>
+	<key>name</key>
+	<string>display.loadRemoteImage</string>
+	<key>tabTrigger</key>
+	<string>display.loadRemoteImage</string>
+	<key>uuid</key>
+	<string>2CE17313-96FF-4D7E-93CB-2BCECFC89FE6</string>
+</dict>
+</plist>
