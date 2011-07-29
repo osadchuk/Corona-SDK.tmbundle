@@ -281,6 +281,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\b(gameNetwork\.(init|show|request))\b</string>
+			<key>name</key>
+			<string>keyword.corona.gamenetwork.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(event\.(invalidProducts|name|products|transaction|isShake|name|xGravity|xInstant|yGravity|yInstant|zGravity|zInstant|channel|completed|handle|phase|action|index|name|target|name|time|geographic|magnetic|name|accuracy|altitude|direction|errorCode|errorMessage|latitude|longitude|name|speed|time|delta|name|type|force|friction|object1|object2|other|other|phase|sprite|name|type|count|name|source|time|id|phase|time|xStart|yStart|errorCode|errorMessage|name|url))\b</string>
 			<key>name</key>
 			<string>keyword.corona.event.lua</string>

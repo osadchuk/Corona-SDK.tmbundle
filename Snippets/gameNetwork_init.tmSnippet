@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>gameNetwork.init("${1:provider name}"${2:[, provider-specific parameters]})</string>
+	<key>name</key>
+	<string>gameNetwork.init</string>
+	<key>tabTrigger</key>
+	<string>gameNetwork.init</string>
+	<key>uuid</key>
+	<string>BE6B539F-60B7-4E01-B390-13008D81D9BA</string>
+</dict>
+</plist>
