@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:setRegion(${1:latitude}, ${2:longitude}, ${3:latitudeSpan}, ${4:longitudeSpan}, ${5:isAnimated})</string>
+	<key>name</key>
+	<string>:setRegion</string>
+	<key>tabTrigger</key>
+	<string>:setRegion</string>
+	<key>uuid</key>
+	<string>90202A18-87CF-4E9B-B87B-45989B9B8CDC</string>
+</dict>
+</plist>

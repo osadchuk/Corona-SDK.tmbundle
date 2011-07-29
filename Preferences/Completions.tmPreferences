@@ -537,6 +537,17 @@
 			<string>restore</string>
 			<string>decode</string>
 			<string>encode</string>
+			<string>isLocationVisible</string>
+			<string>isScrollEnabled</string>
+			<string>isZoomEnabled</string>
+			<string>mapType</string>
+			<string>getAddressLocation</string>
+			<string>getUserLocation()</string>
+			<string>removeAllMarkers()</string>
+			<string>setCenter</string>
+			<string>setRegion</string>
+			<string>native.newMapView</string>
+			<string>newMapView</string>
 		</array>
 	</dict>
 	<key>uuid</key>

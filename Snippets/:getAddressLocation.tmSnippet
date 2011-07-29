@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:getAddressLocation("${1:location}")</string>
+	<key>name</key>
+	<string>:getAddressLocation</string>
+	<key>tabTrigger</key>
+	<string>:getAddressLocation</string>
+	<key>uuid</key>
+	<string>EB2AC5F8-A51F-4D81-8FFC-FD7FE0EF0B9E</string>
+</dict>
+</plist>

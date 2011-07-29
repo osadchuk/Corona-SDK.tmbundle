@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:addMarker(${1:latitude}, ${2:longitude}, {title = "${3:title}", subtitle = "${4:subtitle}"})</string>
+	<key>name</key>
+	<string>:addMarker</string>
+	<key>tabTrigger</key>
+	<string>:addMarker</string>
+	<key>uuid</key>
+	<string>CFDB2402-1F56-428D-9402-A81B651DE075</string>
+</dict>
+</plist>

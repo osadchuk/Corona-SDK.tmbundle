@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:setCenter(${1:latitude}, ${2:longitude}, ${3:isAnimated})</string>
+	<key>name</key>
+	<string>:setCenter</string>
+	<key>tabTrigger</key>
+	<string>:setCenter</string>
+	<key>uuid</key>
+	<string>36F2BB16-D57C-44C5-9562-70FA3CDAA732</string>
+</dict>
+</plist>

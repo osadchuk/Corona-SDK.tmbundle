@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>native.newMapView(${1:left}, ${2:top}, ${3:width}, ${4:height})</string>
+	<key>name</key>
+	<string>native.newMapView</string>
+	<key>tabTrigger</key>
+	<string>native.newMapView</string>
+	<key>uuid</key>
+	<string>9983F15C-81FF-4C14-8BBF-4B9A62A9AD15</string>
+</dict>
+</plist>
