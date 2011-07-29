@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>facebook.showDialog(${1:params})</string>
+	<key>name</key>
+	<string>facebook.showDialog</string>
+	<key>tabTrigger</key>
+	<string>facebook.showDialog</string>
+	<key>uuid</key>
+	<string>E98C9F48-E824-48EC-8DC1-BC9C3763E240</string>
+</dict>
+</plist>

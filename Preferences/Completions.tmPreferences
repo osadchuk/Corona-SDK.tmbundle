@@ -525,6 +525,10 @@
 			<string>transition.dissolve</string>
 			<string>transition.from</string>
 			<string>transition.to</string>
+			<string>requestUpdate()</string>
+			<string>showOffers()</string>
+			<string>login()</string>
+			<string>logout()</string>
 		</array>
 	</dict>
 	<key>uuid</key>

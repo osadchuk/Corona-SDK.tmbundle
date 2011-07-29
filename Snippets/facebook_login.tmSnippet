@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>facebook.login(${1:app id}, ${2:listener}${3:[, permissions]})</string>
+	<key>name</key>
+	<string>facebook.login</string>
+	<key>tabTrigger</key>
+	<string>facebook.login</string>
+	<key>uuid</key>
+	<string>53481453-3EB8-40AC-AE3C-E3A045ABE2CC</string>
+</dict>
+</plist>

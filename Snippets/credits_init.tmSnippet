@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>credits.init(${1:app id}, ${2:[uid,]} ${3:listener})</string>
+	<key>name</key>
+	<string>credits.init</string>
+	<key>tabTrigger</key>
+	<string>credits.init</string>
+	<key>uuid</key>
+	<string>F54CEA2A-DD53-4CCE-A396-925A94FB5AD7</string>
+</dict>
+</plist>

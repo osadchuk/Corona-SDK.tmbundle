@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>analytics.init(${1:your app key})</string>
+	<key>name</key>
+	<string>analytics.init</string>
+	<key>tabTrigger</key>
+	<string>analytics.init</string>
+	<key>uuid</key>
+	<string>3864DF7D-F58D-4290-A022-1AB32315A049</string>
+</dict>
+</plist>

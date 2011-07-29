@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>analytics.logEvent(${1:event ID})</string>
+	<key>name</key>
+	<string>analytics.logEvent</string>
+	<key>tabTrigger</key>
+	<string>analytics.logEvent</string>
+	<key>uuid</key>
+	<string>FCBB66B5-4F51-4549-8F8A-5966B83D533B</string>
+</dict>
+</plist>
