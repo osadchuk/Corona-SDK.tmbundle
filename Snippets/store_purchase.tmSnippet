@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>store.purchase(${1:array of products to purchase})</string>
+	<key>name</key>
+	<string>store.purchase</string>
+	<key>tabTrigger</key>
+	<string>store.purchase</string>
+	<key>uuid</key>
+	<string>68017278-4717-45E9-A015-2A03F16A1CBC</string>
+</dict>
+</plist>

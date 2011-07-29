@@ -529,6 +529,12 @@
 			<string>showOffers()</string>
 			<string>login()</string>
 			<string>logout()</string>
+			<string>store</string>
+			<string>canMakePurchases</string>
+			<string>finishTransaction</string>
+			<string>loadProducts</string>
+			<string>purchase</string>
+			<string>restore</string>
 		</array>
 	</dict>
 	<key>uuid</key>
