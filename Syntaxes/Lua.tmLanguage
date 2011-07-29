@@ -293,9 +293,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(store\.(init|loadProducts|purchase|canMakePurchases))\b</string>
+			<string>\b(store\.(init|loadProducts|purchase|canMakePurchases|finishTransaction))\b</string>
 			<key>name</key>
 			<string>keyword.corona.store.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(json\.(decode|encode|null))\b</string>
+			<key>name</key>
+			<string>keyword.corona.json.lua</string>
 		</dict>
 		<dict>
 			<key>match</key>

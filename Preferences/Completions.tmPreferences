@@ -535,6 +535,8 @@
 			<string>loadProducts</string>
 			<string>purchase</string>
 			<string>restore</string>
+			<string>decode</string>
+			<string>encode</string>
 		</array>
 	</dict>
 	<key>uuid</key>

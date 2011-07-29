@@ -34,14 +34,25 @@
 			<string>C78A5F77-EAD1-4877-ADE2-04DC6263B383</string>
 			<string>F2172463-1A73-4D59-A80D-C1912E792EBA</string>
 			<string>5C281BCB-ABD3-4E14-9220-50D62CD70EA2</string>
+			<string>D0EB2D31-BEC9-455B-A7DB-B4868FB19FE8</string>
+			<string>076816FB-C497-4271-9D7D-8273A51A458E</string>
 			<string>734034F6-C0BA-4A42-BFDA-FC83F6D1F7DC</string>
 			<string>C971D797-7A24-4B7A-AC8B-1E2605DC9A9E</string>
-			<string>D0EB2D31-BEC9-455B-A7DB-B4868FB19FE8</string>
 			<string>A144F1DD-AE23-4521-A6B1-19C4D2ECEB7E</string>
 			<string>28DE0A9E-C015-47A4-9F38-BC0F85122383</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>076816FB-C497-4271-9D7D-8273A51A458E</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>33E1FDD4-2B77-4D40-B94B-71BA500903B7</string>
+					<string>7C4D2D6D-DBE4-413A-A180-79B9AE06AAC3</string>
+				</array>
+				<key>name</key>
+				<string>json</string>
+			</dict>
 			<key>28DE0A9E-C015-47A4-9F38-BC0F85122383</key>
 			<dict>
 				<key>items</key>
@@ -182,12 +193,13 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>B10D3EF9-B545-4362-B09D-55C817CC33C0</string>
 					<string>0AD75467-61CE-4445-B4FE-D0FB0ACF0A66</string>
 					<string>E4E3815C-CE3B-4CCB-A32C-D4CCB10100D1</string>
 					<string>68017278-4717-45E9-A015-2A03F16A1CBC</string>
 				</array>
 				<key>name</key>
-				<string>store</string>
+				<string>in-app purchases</string>
 			</dict>
 			<key>F2172463-1A73-4D59-A80D-C1912E792EBA</key>
 			<dict>
@@ -305,6 +317,9 @@
 		<string>0AD75467-61CE-4445-B4FE-D0FB0ACF0A66</string>
 		<string>E4E3815C-CE3B-4CCB-A32C-D4CCB10100D1</string>
 		<string>68017278-4717-45E9-A015-2A03F16A1CBC</string>
+		<string>B10D3EF9-B545-4362-B09D-55C817CC33C0</string>
+		<string>7C4D2D6D-DBE4-413A-A180-79B9AE06AAC3</string>
+		<string>33E1FDD4-2B77-4D40-B94B-71BA500903B7</string>
 	</array>
 	<key>uuid</key>
 	<string>1D5D816D-79F9-4F19-9D76-E869E67D4320</string>

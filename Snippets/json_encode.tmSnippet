@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>json.encode(${1:table to encode})</string>
+	<key>name</key>
+	<string>json.encode</string>
+	<key>tabTrigger</key>
+	<string>json.encode</string>
+	<key>uuid</key>
+	<string>7C4D2D6D-DBE4-413A-A180-79B9AE06AAC3</string>
+</dict>
+</plist>
