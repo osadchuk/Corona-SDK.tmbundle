@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-if ${#SDK_PATH} &gt; 0 ; then
+if [[ ${#SDK_PATH} &gt; 0 ]] ; then
   CORONA_SIM_PATH=$SDK_PATH"/simulator"
 else
   CORONA_SIM_PATH="/Applications/CoronaSDK/simulator"
