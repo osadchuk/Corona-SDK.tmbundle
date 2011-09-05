@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:setRegion(${1:latitude}, ${2:longitude}, ${3:latitudeSpan}, ${4:longitudeSpan}, ${5:isAnimated})</string>
+	<string>getAddressLocation("${1:location}")</string>
 	<key>name</key>
-	<string>:setRegion</string>
+	<string>:getAddressLocation</string>
 	<key>tabTrigger</key>
-	<string>:setRegion</string>
+	<string>getAddressLocation</string>
 	<key>uuid</key>
-	<string>90202A18-87CF-4E9B-B87B-45989B9B8CDC</string>
+	<string>EB2AC5F8-A51F-4D81-8FFC-FD7FE0EF0B9E</string>
 </dict>
 </plist>
