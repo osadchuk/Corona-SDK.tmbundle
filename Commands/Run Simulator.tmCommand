@@ -7,6 +7,10 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
+if [[ ${#SKIN} &lt; 1 ]] ; then
+  SKIN="iPhone"
+fi
+
 if [[ ${#SDK_PATH} &gt; 0 ]] ; then
   CORONA_SIM_PATH=$SDK_PATH"/simulator"
 else
@@ -48,7 +52,7 @@ osascript &lt;&lt;- APPLESCRIPT
 		selectAppMenuItem("Corona Simulator","File","Relaunch")
 	else
 		tell application "Terminal"
-		do script "$CORONA_SIM_PATH $TM_DIRECTORY"
+		do script "$CORONA_SIM_PATH -project $TM_DIRECTORY -skin $SKIN"
 		end tell
 	end if
 
