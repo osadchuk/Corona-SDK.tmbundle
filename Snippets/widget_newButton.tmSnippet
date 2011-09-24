@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newButton{
+	id = "${1:id}",
+	x = ${2:x},
+	y = ${3:y},
+	width = ${4:width},
+	height = ${5:height},
+	label = "${6:label}",
+	labelColor = {${7:r}, ${8:g}, ${9:b}, ${10:a}},
+	size = ${11:size},
+	font = "${12:font}",
+	onPress = ${13:onPress},
+	onRelease = ${14:onRelease},
+	onEvent = ${15:onEvent},
+	emboss = ${16:true/false},
+	offset = ${17:offset},
+	default = ${18:default image},
+	over = ${19:over image},
+	buttonTheme = "${20:blue or red}",
+	baseDir = ${21:pathToImages}
+}</string>
+	<key>name</key>
+	<string>widget.newButton</string>
+	<key>tabTrigger</key>
+	<string>widget.newButton</string>
+	<key>uuid</key>
+	<string>C52DBB9B-A5ED-4C8F-A89A-5BDBB4E01417</string>
+</dict>
+</plist>

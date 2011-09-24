@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newTableView{
+	width = ${1:width},
+	height = ${2:height},
+	x = ${3:x},
+	y = ${4:y},
+	mask = ${5:mask},
+	background = ${6:image},
+	backgroundColor = {${7:r}, ${8:g}, ${9:b}, ${10:a}},
+	hideScrollbar = ${11:true/false},
+	isInfinite = ${12:true/false},
+	bottomLineColor = {${13:r}, ${14:g}, ${15:b}, ${16:a}},
+	rowHeight = ${17:rowHeight},
+	rowColor = {${18:r}, ${19:g}, ${20:b}, ${21:a}},
+	downColor = {${22:r}, ${23:g}, ${24:b}, ${25:a}},
+	titleFont = {${26:font}, {${27:r}, ${28:g}, ${29:b}, ${30:a}}, ${31:size}},
+	subFont =  {${32:font}, {${33:r}, ${34:g}, ${35:b}, ${36:a}}, ${37:size}},
+	categoryBackground = {${38:file}, ${39:height}, ${40:width}},
+	categoryFont =  {${41:font}, {${42:r}, ${43:g}, ${44:b}, ${45:a}}, ${46:size}},
+	baseDire = ${47:baseDir}
+}</string>
+	<key>name</key>
+	<string>widget.newTableView</string>
+	<key>tabTrigger</key>
+	<string>widget.newTableView</string>
+	<key>uuid</key>
+	<string>4AE5CC84-7739-4D0A-819C-5C3A401DA3F6</string>
+</dict>
+</plist>

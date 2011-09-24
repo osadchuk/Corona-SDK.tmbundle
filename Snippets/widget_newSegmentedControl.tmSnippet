@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newSegmentedControl(
+	{
+		{ id="${1:btn1}", label="${2:Button 1}", onPress=${3:buttonHandler}, isDown=${4:true/false} },
+		{ id="${5:btn2}", label="${6:Button 2}", onPress=${7:buttonHandler}, isDown=${8:true/false} },
+		{ id="${9:btn3}", label="${10:Button 3}", onPress=${11:buttonHandler}, isDown=${12:true/false} },
+	},
+	{
+		id = "${13:id}",
+		x = ${14:x},
+		y = ${15:y},
+		labelColor = {${16:r}, ${17:g}, ${18:b}},
+		font = "${19:font}",
+		size = ${20:size},
+		padding = ${21:padding},
+		emboss = ${22:true/false},
+	}
+}</string>
+	<key>name</key>
+	<string>widget.newSegmentedControl</string>
+	<key>tabTrigger</key>
+	<string>widget.newSegmentedControl</string>
+	<key>uuid</key>
+	<string>42B7B841-9342-4B80-AF96-1FB40B38BAE6</string>
+</dict>
+</plist>

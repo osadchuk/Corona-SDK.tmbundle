@@ -209,7 +209,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;![^.]\.|:)\b(coroutine\.(create|resume|running|status|wrap|yield)|string\.(byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper)|table\.(concat|insert|maxn|remove|sort)|math\.(abs|acos|asin|atan2?|ceil|cosh?|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|pow|rad|random|randomseed|sinh?|sqrt|tanh?)|io\.(close|flush|input|lines|open|output|popen|read|tmpfile|type|write)|os\.(clock|date|difftime|execute|exit|getenv|remove|rename|setlocale|time|tmpname)|package\.(cpath|loaded|loadlib|path|preload|seeall)|debug\.(debug|[gs]etfenv|[gs]ethook|getinfo|[gs]etlocal|[gs]etmetatable|getregistry|[gs]etupvalue|traceback))\b(?=[( {])</string>
+			<string>(?&lt;![^.]\.|:)\b(coroutine\.(create|resume|running|status|wrap|yield)|string\.(byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper)|table\.(concat|insert|maxn|remove|sort)|math\.(abs|acos|asin|atan2?|ceil|cosh?|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|pow|rad|random|randomseed|round|sinh?|sqrt|tanh?)|io\.(close|flush|input|lines|open|output|popen|read|tmpfile|type|write)|os\.(clock|date|difftime|execute|exit|getenv|remove|rename|setlocale|time|tmpname)|package\.(cpath|loaded|loadlib|path|preload|seeall)|debug\.(debug|[gs]etfenv|[gs]ethook|getinfo|[gs]etlocal|[gs]etmetatable|getregistry|[gs]etupvalue|traceback))\b(?=[( {])</string>
 			<key>name</key>
 			<string>support.function.library.lua</string>
 		</dict>
@@ -314,6 +314,12 @@
 			<string>\b(system\.(DocumentsDirectory|TemporaryDirectory|pathForFile|ResourceDirectory|activate|getInfo|getPreference|getTimer|hasEventSource|openURL|orientation|setAccelerometerInterval|setGyroscopeInterval|setIdleTimer|setLocationAccuracy|setLocationThreshold|vibrate))\b</string>
 			<key>name</key>
 			<string>keyword.corona.system.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(widget\.(newButton|newEmbossedText|newPickerWheel|newScrollView|newSegmentedControl|newSlider|newTableView|newToolbar))\b</string>
+			<key>name</key>
+			<string>keyword.corona.widget.lua</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

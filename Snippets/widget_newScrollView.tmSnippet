@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newScrollView{
+	width = ${1:width},
+	height = ${2:height},
+	x = ${3:x},
+	y = ${4:y},
+	mask = ${5:mask},
+	background = ${6:image},
+	backgroundColor = {${7:r}, ${8:g}, ${9:b}, ${10:a}},
+	hideScrollbar = ${11:true/false},
+}</string>
+	<key>name</key>
+	<string>widget.newScrollView</string>
+	<key>tabTrigger</key>
+	<string>widget.newScrollView</string>
+	<key>uuid</key>
+	<string>457FEEFB-7566-464F-B40E-84FBFCACA2CB</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newEmbossedText(${1:text}, ${2:xPos}, ${3:yPos}, ${4:font}, ${5:size}, {${6:r}, ${7:g}, ${8:b}})</string>
+	<key>name</key>
+	<string>widget.newEmbossedText</string>
+	<key>tabTrigger</key>
+	<string>widget.newEmbossedText</string>
+	<key>uuid</key>
+	<string>4F60BDEB-505C-4A74-A3A9-9430E4B77FE3</string>
+</dict>
+</plist>

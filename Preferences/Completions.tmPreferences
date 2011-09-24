@@ -548,6 +548,14 @@
 			<string>setRegion</string>
 			<string>native.newMapView</string>
 			<string>newMapView</string>
+			<string>newButton</string>
+			<string>newEmbossedText</string>
+			<string>newPickerWheel</string>
+			<string>newScrollView</string>
+			<string>newSegmentedControl</string>
+			<string>newSlider</string>
+			<string>newTableView</string>
+			<string>newToolbar</string>
 		</array>
 	</dict>
 	<key>uuid</key>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-- consult the Ansca API reference for column syntax:
+-- http://developer.anscamobile.com/reference/index/widgetnewpickerwheel
+widget.newPickerWheel{
+	id = "${1:id}",
+	x = ${2:x},
+	y = ${3:y},
+	width = ${4:width},
+	column1 = ${6:column1},
+	column2 = ${7:column2},
+	column3 = ${8:column3},
+	preset = "${9:usDate, euDate, or time}",
+	startMonth = ${10:1-12},
+	startDay = ${11:1-31},
+	startYear = ${12:year},
+	startHour = ${13:1-12},
+	startMinute = ${14:1-59},
+	startAmPm = "${15:a or p}",
+}</string>
+	<key>name</key>
+	<string>widget.newPickerWheel</string>
+	<key>tabTrigger</key>
+	<string>widget.newPickerWheel</string>
+	<key>uuid</key>
+	<string>DCF01105-6A07-4A32-AE54-B2876E871293</string>
+</dict>
+</plist>
