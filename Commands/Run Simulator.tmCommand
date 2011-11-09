@@ -17,6 +17,12 @@ else
   CORONA_SIM_PATH="/Applications/CoronaSDK/simulator"
 fi
 
+if [[ ${#TM_PROJECT_DIRECTORY} &gt; 0 ]] ;  then
+  TARGET_DIR=$TM_PROJECT_DIRECTORY
+else
+  TARGET_DIR=$TM_DIRECTORY
+fi
+
 # In order for the simulator relaunch to work, "Enable access for assistive devices" must be selected in System Preferences &gt; Universal Access.
 
 osascript &lt;&lt;- APPLESCRIPT
@@ -52,7 +58,7 @@ osascript &lt;&lt;- APPLESCRIPT
 		selectAppMenuItem("Corona Simulator","File","Relaunch")
 	else
 		tell application "Terminal"
-		do script "$CORONA_SIM_PATH -project $TM_DIRECTORY -skin $SKIN"
+		do script "$CORONA_SIM_PATH -project $TM_PROJECT_DIRECTORY -skin $SKIN"
 		end tell
 	end if
 
