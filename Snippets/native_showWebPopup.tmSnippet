@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-- x, y, width, height are optional; if not used, popup is fullscreen
-native.showWebPopup(${1:x}, ${2:y}, ${3:width}, ${4:height}, "${5:url}"${6:[, options]})</string>
+	<string>native.showWebPopup(${1:x}, ${2:y}, ${3:width}, ${4:height}, "${5:url}"${6:[, options]})</string>
 	<key>name</key>
 	<string>native.showWebPopup</string>
 	<key>tabTrigger</key>
