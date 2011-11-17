@@ -233,7 +233,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;![^.]\.|:)\b(\:(addEventListener|setTextColor|contentToLocal|dispatchEvent|getParent|localToContent|removeEventListener|removeSelf|rotate|scale|setReferencePoint|toBack|toFront|translate|setTextColor|setFillColor|setStrokeColor|getSampleRate|getTunerFrequency|getTunerVolume|isRecording|setSampleRate|startRecording|startTuner|stopRecording|stopTuner|previousFrame|reverse|setDrag |setLabels|stop|stopAtFrame|insert|remove|applyAngularImpulse|applyForce|applyLinearImpulse|applyTorque|getLinearVelocity|resetMassData|setLinearVelocity|getAnchorA|getAnchorB|getLimits|getReactionForce|getRotationLimits|setLimits|setRotationLimits|byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper|concat|insert|maxn|remove|sort)|stage\:(setFocus)|file\:(close|flush|lines|read|seek|setvbuf|write|addMarker|setCenter|getAddressLocation|setRegion))\b(?=[( {])</string>
+			<string>(?&lt;![^.]\.|:)\b(\:(addEventListener|setTextColor|contentToLocal|dispatchEvent|getParent|localToContent|removeEventListener|removeSelf|rotate|scale|setReferencePoint|toBack|toFront|translate|setTextColor|setFillColor|setStrokeColor|getSampleRate|getTunerFrequency|getTunerVolume|isRecording|setSampleRate|startRecording|startTuner|stopRecording|stopTuner|previousFrame|reverse|setDrag|setLabels|stop|stopAtFrame|insert|remove|applyAngularImpulse|applyForce|applyLinearImpulse|applyTorque|getLinearVelocity|resetMassData|setLinearVelocity|getAnchorA|getAnchorB|getLimits|getReactionForce|getRotationLimits|setLimits|setRotationLimits|byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper|concat|insert|maxn|remove|sort)|stage\:(setFocus)|file\:(close|flush|lines|read|seek|setvbuf|write|addMarker|setCenter|getAddressLocation|setRegion))\b(?=[( {])</string>
 			<key>name</key>
 			<string>support.function.corona.colons.lua</string>
 		</dict>
@@ -245,7 +245,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(display\.(contentCenterX|contentCenterY|contentHeight|contentScaleX|contentScaleY|contentWidth|screenOriginX|screenOriginY|statusBarHeight|viewableContentHeight|viewableContentWidth|stageHeight|stageWidth|stageBounds|HiddenStatusBar))\b</string>
+			<string>\b(display\.(contentCenterX|contentCenterY|contentHeight|contentScaleX|contentScaleY|contentWidth|screenOriginX|screenOriginY|statusBarHeight|viewableContentHeight|viewableContentWidth|stageHeight|stageWidth|stageBounds|HiddenStatusBar|DefaultStatusBar|TranslucentStatusBar|TopLeftReferencePoint|TopCenterReferencePoint|TopRightReferencePoint|BottomLeftReferencePoint|BottomCenterReferencePoint|BottomRightReferencePoint|CenterReferencePoint))\b</string>
 			<key>name</key>
 			<string>keyword.corona.display.lua</string>
 		</dict>
