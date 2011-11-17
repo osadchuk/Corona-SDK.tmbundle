@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>display.newImageRect( ${1:[parentGroup]}, "${2:path_to_image}"${3:[, baseDirectory], }${4:width, }${5:height} )</string>
+	<string>display.newImageRect( ${1:[parentGroup,]}"${2:path_to_image}"${3:[, baseDirectory]}, ${4:width}, ${5:height} )</string>
 	<key>name</key>
 	<string>display.newImageRect</string>
 	<key>tabTrigger</key>
