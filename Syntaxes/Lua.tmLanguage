@@ -9,7 +9,7 @@
 		<string>lua</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>^\s*\b(function|local\s+function|if|for)\b|{[ \t]*$|\[\[</string>
+	<string>^\s*\b(function|local\s+function|if|for|do)\b|{[ \t]*$|\[\[|^.*= function</string>
 	<key>foldingStopMarker</key>
 	<string>\bend\b|^\s*}|\]\]</string>
 	<key>keyEquivalent</key>

@@ -1,1 +1,4 @@
-module (..., package.seeall)
+local Module = {}
+
+
+return Module
