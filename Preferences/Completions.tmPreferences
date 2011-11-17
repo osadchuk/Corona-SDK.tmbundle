@@ -232,6 +232,8 @@
 			<string>rotation</string>
 			<string>save</string>
 			<string>scale</string>
+			<string>screenOriginX</string>
+			<string>screenOriginY</string>
 			<string>seeall</string>
 			<string>select</string>
 			<string>sequence</string>
