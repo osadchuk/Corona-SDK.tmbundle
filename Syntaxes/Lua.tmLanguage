@@ -257,7 +257,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(physics\.(angularDamping|angularVelocity|bodyType|isAwake|isBodyActive|isBullet|isFixedRotation|isSleepingAllowed|linearDamping))\b</string>
+			<string>\b(physics\.(angularDamping|angularVelocity|bodyType|isAwake|isBodyActive|isBullet|isFixedRotation|isSleepingAllowed|linearDamping|start|setGravity|setDrawMode|addBody|getGravity|newJoint|pause|removeBody|setPositionIterations|setScale|setVelocityIterations|stop))\b</string>
 			<key>name</key>
 			<string>keyword.corona.physics.lua</string>
 		</dict>
