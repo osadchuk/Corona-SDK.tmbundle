@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>transition.from(${1:object}, {time = ${2:milliseconds}, ${3:property} = ${4:value}, onComplete = ${5:function}})</string>
+	<string>:applyTorque( ${1:appliedForce} )</string>
 	<key>name</key>
-	<string>transition.from</string>
+	<string>body:applyTorque</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>transition.from</string>
+	<string>:applyTorque</string>
 	<key>uuid</key>
-	<string>DEB5E1EB-9948-493B-B46E-3799EE90B487</string>
+	<string>58720E43-32E1-4044-AEA0-7E4E0A4C4A4C</string>
 </dict>
 </plist>

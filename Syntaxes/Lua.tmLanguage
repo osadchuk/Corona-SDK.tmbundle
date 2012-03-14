@@ -227,7 +227,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;![^.]\.|:)\b(store\.(init|loadProducts|purchase|restore)|display\.(loadRemoteImage|newCircle|newGroup|newImage|newImageRect|newLine|newRect|newRoundedRect|newText|captureScreen|getCurrentStage|save|setDefault|setStatusBar)|sprite\.(newSpriteSheet|newSpriteSet|newSprite|add|newSpriteSheetFromData)|analytics\.(init|logEvent)|easing\.(inExpo|inOutExpo|inOutQuad|inQuad|linear|outExpo|outExpo|outQuad)|transition\.(cancel|dissolve|from|to)|facebook\.(login|logout|request|showDialog)|media\.(pauseSound|newRecording|newEventSound|getSoundVolume|playEventSound|playSound|playVideo|setSoundVolume|show|stopSound)|native\.(cancelWebPopup|showWebPopup|newTextField|newTextBox|cancelAlert|getFontNames|newFont|setActivityIndicator|setKeyboardFocus|showAlert)|timer\.(cancel|performWithDelay)|openfeint\.(downloadBlob|init|launchDashboard|setHighScore|unlockAchievement|uploadBlob)|os\.(clock|date|difftime|execute|exit|remove|rename|time)|physics\.(addBody|newJoint)|store\.(finishTransaction|init|loadProducts|purchase|restore)|audio\.(dispose|fade|fadeOut|findFreeChannel|getDuration|getMaxVolume|getMinVolume|getVolume|isChannelActive|isChannelPaused|isChannelPlaying|loadSound|loadStream|pause|play|reserveChannels|resume|rewind|seek|setMaxVolume|setMinVolume|setVolume|stop|stopWithDelay)|movieclip\.(newAnim)|crypto\.(digest|hmac|isLocationVisible|isScrollEnabled|isZoomEnabled|mapType))\b(?=[( {])</string>
+			<string>(?&lt;![^.]\.|:)\b(store\.(init|loadProducts|purchase|restore)|display\.(loadRemoteImage|newCircle|newGroup|newImage|newImageRect|newLine|newRect|newRoundedRect|newText|newRetinaText|captureScreen|getCurrentStage|save|setDefault|setStatusBar)|sprite\.(newSpriteSheet|newSpriteSet|newSprite|add|newSpriteSheetFromData)|analytics\.(init|logEvent)|easing\.(inExpo|inOutExpo|inOutQuad|inQuad|linear|outExpo|outExpo|outQuad)|transition\.(cancel|dissolve|from|to)|facebook\.(login|logout|request|showDialog)|media\.(pauseSound|newRecording|newEventSound|getSoundVolume|playEventSound|playSound|playVideo|setSoundVolume|show|stopSound)|native\.(cancelWebPopup|showWebPopup|newTextField|newTextBox|cancelAlert|getFontNames|newFont|setActivityIndicator|setKeyboardFocus|showAlert)|timer\.(cancel|performWithDelay|resume|pause)|openfeint\.(downloadBlob|init|launchDashboard|setHighScore|unlockAchievement|uploadBlob)|os\.(clock|date|difftime|execute|exit|remove|rename|time)|physics\.(addBody|newJoint)|store\.(finishTransaction|init|loadProducts|purchase|restore)|audio\.(dispose|fade|fadeOut|findFreeChannel|getDuration|getMaxVolume|getMinVolume|getVolume|isChannelActive|isChannelPaused|isChannelPlaying|loadSound|loadStream|pause|play|reserveChannels|resume|rewind|seek|setMaxVolume|setMinVolume|setVolume|stop|stopWithDelay)|movieclip\.(newAnim)|crypto\.(digest|hmac|isLocationVisible|isScrollEnabled|isZoomEnabled|mapType))\b(?=[( {])</string>
 			<key>name</key>
 			<string>support.function.corona.lua</string>
 		</dict>
@@ -245,7 +245,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(display\.(contentCenterX|contentCenterY|contentHeight|contentScaleX|contentScaleY|contentWidth|screenOriginX|screenOriginY|statusBarHeight|viewableContentHeight|viewableContentWidth|stageHeight|stageWidth|stageBounds|HiddenStatusBar|DefaultStatusBar|TranslucentStatusBar|TopLeftReferencePoint|TopCenterReferencePoint|TopRightReferencePoint|BottomLeftReferencePoint|BottomCenterReferencePoint|BottomRightReferencePoint|CenterReferencePoint))\b</string>
+			<string>\b(storyboard\.(getPrevious|getScene|gotoScene|newScene|purgeAll|purgeScene|removeAll|removeScene))\b</string>
+			<key>name</key>
+			<string>keyword.corona.storyboard.lua</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(display\.(contentCenterX|contentCenterY|contentHeight|contentScaleX|contentScaleY|contentWidth|screenOriginX|screenOriginY|statusBarHeight|viewableContentHeight|viewableContentWidth|stageHeight|stageWidth|stageBounds|HiddenStatusBar|DefaultStatusBar|TranslucentStatusBar|DarkStatusBar|TopLeftReferencePoint|TopCenterReferencePoint|TopRightReferencePoint|BottomLeftReferencePoint|BottomCenterReferencePoint|BottomRightReferencePoint|CenterReferencePoint|CenterLeftReferencePoint|CenterRightReferencePoint))\b</string>
 			<key>name</key>
 			<string>keyword.corona.display.lua</string>
 		</dict>

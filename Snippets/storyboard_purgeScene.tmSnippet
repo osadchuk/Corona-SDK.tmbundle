@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>physics.setDrawMode("${1:debug, hybrid, or normal}")	</string>
+	<string>storyboard.purgeScene( "${1:sceneName}" )</string>
 	<key>name</key>
-	<string>physics.setDrawMode</string>
-	<key>scope</key>
-	<string>source.lua</string>
+	<string>storyboard.purgeScene</string>
 	<key>tabTrigger</key>
-	<string>physics.setDrawMode</string>
+	<string>storyboard.purgeScene</string>
 	<key>uuid</key>
-	<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+	<string>AA08C2CB-5966-4B65-8EF5-AA4F3F077073</string>
 </dict>
 </plist>

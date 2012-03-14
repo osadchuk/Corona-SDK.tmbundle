@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+
+f = open(ENV["TM_NEW_FILE"], 'w')
+template = open("template_in.txt").read
+
+template = template.gsub(/[$]\{([^}]+)\}/){|match| "#{ENV[$1]}" }
+f.write template
+f.close</string>
+	<key>extension</key>
+	<string>lua</string>
+	<key>name</key>
+	<string>module</string>
+	<key>uuid</key>
+	<string>14724337-1206-43A9-86F0-C9C2031561B2</string>
+</dict>
+</plist>

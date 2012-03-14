@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>timer.cancel(${1:timerID})</string>
+	<string>timer.cancel( ${1:timerID} )</string>
 	<key>name</key>
 	<string>timer.cancel</string>
 	<key>scope</key>

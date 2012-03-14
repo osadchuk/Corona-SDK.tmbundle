@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>for ${1:k},${2:v} in pairs(${3:table_name}) do
-	${0:print(k,v)}
+	${0:print(${1:k},${2:v})}
 end</string>
 	<key>name</key>
 	<string>for k,v in pairs()</string>
