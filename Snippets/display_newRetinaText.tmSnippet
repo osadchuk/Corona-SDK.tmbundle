@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>physics.setDrawMode("${1:debug, hybrid, or normal}")	</string>
+	<string>display.newRetinaText(${1:[parentGroup], }"${2:string}", ${3:x}, ${4:y}, ${5:font}, ${6:size})</string>
 	<key>name</key>
-	<string>physics.setDrawMode</string>
-	<key>scope</key>
-	<string>source.lua</string>
+	<string>display.newRetinaText</string>
 	<key>tabTrigger</key>
-	<string>physics.setDrawMode</string>
+	<string>display.newRetinaText</string>
 	<key>uuid</key>
-	<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+	<string>D6E5254C-5603-4241-B92A-6D2575E13592</string>
 </dict>
 </plist>
