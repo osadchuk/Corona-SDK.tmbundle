@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>timer.performWithDelay(${1:delay_in_milliseconds}, ${2:callback_function}, ${3:iterations})</string>
+	<string>physics.newJoint( ${1:pivot, distance, piston, friction, weld, wheel, pulley or touch}, ${2:object1}, ${3:object2}, ${4:anchorX}, ${5:anchorY} )</string>
 	<key>name</key>
-	<string>timer.performWithDelay</string>
+	<string>physics.newJoint</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>timer.performWithDelay</string>
+	<string>physics.newJoint</string>
 	<key>uuid</key>
-	<string>D73074D3-8279-401E-A12C-E2444138F3D0</string>
+	<string>7F7432FF-AB45-4945-BBA3-816271AB99D2</string>
 </dict>
 </plist>

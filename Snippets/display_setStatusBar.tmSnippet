@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>physics.setDrawMode("${1:debug, hybrid, or normal}")	</string>
+	<string>display.setStatusBar( display.${1:HiddenStatusBar, DefaultStatusBar, TranslucentStatusBar or DarkStatusBar} )</string>
 	<key>name</key>
-	<string>physics.setDrawMode</string>
-	<key>scope</key>
-	<string>source.lua</string>
+	<string>display.setStatusBar</string>
 	<key>tabTrigger</key>
-	<string>physics.setDrawMode</string>
+	<string>display.setStatusBar</string>
 	<key>uuid</key>
-	<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+	<string>1C5AF671-E4E0-4D36-A4FB-CB89225436C7</string>
 </dict>
 </plist>

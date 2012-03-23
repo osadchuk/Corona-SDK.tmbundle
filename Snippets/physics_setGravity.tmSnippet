@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>transition.from(${1:object}, {time = ${2:milliseconds}, ${3:property} = ${4:value}, onComplete = ${5:function}})</string>
+	<string>physics.setGravity( ${1:gx}, ${2:gy} )
+</string>
 	<key>name</key>
-	<string>transition.from</string>
+	<string>physics.setGravity</string>
 	<key>scope</key>
 	<string>source.lua</string>
 	<key>tabTrigger</key>
-	<string>transition.from</string>
+	<string>physics.setGravity</string>
 	<key>uuid</key>
-	<string>DEB5E1EB-9948-493B-B46E-3799EE90B487</string>
+	<string>B96DC4A4-E235-4939-AC90-A38A5169813E</string>
 </dict>
 </plist>

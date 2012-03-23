@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>storyboard.gotoScene( "${1:sceneName}"${2:, ["fade, zoomOutIn, zoomOutInFade, zoomInOut, zoomInOutFade, flip, flipFadeOutIn, zoomOutInRotate, zoomOutInFadeRotate, zoomInOutRotate, zoomInOutFadeRotate, fromRight, fromLeft, fromTop, fromBottom, slideLeft, slideRight, slideDown, slideUp, crossFade"]}${3:, [effectTime]} )</string>
+	<key>name</key>
+	<string>storyboard.gotoScene</string>
+	<key>tabTrigger</key>
+	<string>storyboard.gotoScene</string>
+	<key>uuid</key>
+	<string>A8ED43C9-02C5-41B6-B8F5-61A789D490B3</string>
+</dict>
+</plist>

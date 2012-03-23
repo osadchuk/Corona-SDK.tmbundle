@@ -1,0 +1,3 @@
+local ${TM_NEW_FILE_BASENAME} = {}
+
+return ${TM_NEW_FILE_BASENAME}

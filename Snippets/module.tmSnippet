@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>physics.setDrawMode("${1:debug, hybrid, or normal}")	</string>
+	<string>module (..., package.seeall)</string>
 	<key>name</key>
-	<string>physics.setDrawMode</string>
-	<key>scope</key>
-	<string>source.lua</string>
+	<string>module</string>
 	<key>tabTrigger</key>
-	<string>physics.setDrawMode</string>
+	<string>module</string>
 	<key>uuid</key>
-	<string>A23FB0CB-6FFA-4748-83F6-E6D90E01637F</string>
+	<string>CCA8D0DA-3A8A-48EB-A562-998BD4DA60F8</string>
 </dict>
 </plist>
