@@ -12,9 +12,9 @@ if [[ ${#SKIN} &lt; 1 ]] ; then
 fi
 
 if [[ ${#SDK_PATH} &gt; 0 ]] ; then
-  CORONA_SIM_PATH=$SDK_PATH"/simulator"
+  CORONA_SIM_PATH=$SDK_PATH"/Corona Terminal"
 else
-  CORONA_SIM_PATH="/Applications/CoronaSDK/simulator"
+  CORONA_SIM_PATH="/Applications/CoronaSDK/Corona Terminal"
 fi
 
 if [[ ${#TM_PROJECT_DIRECTORY} &gt; 0 ]] ;  then
@@ -58,7 +58,7 @@ osascript &lt;&lt;- APPLESCRIPT
 		selectAppMenuItem("Corona Simulator","File","Relaunch")
 	else
 		tell application "Terminal"
-		do script "$CORONA_SIM_PATH -project $TM_PROJECT_DIRECTORY -skin $SKIN"
+		do script "'$CORONA_SIM_PATH' -project $TM_PROJECT_DIRECTORY -skin $SKIN"
 		end tell
 	end if
 
