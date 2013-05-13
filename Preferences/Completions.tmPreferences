@@ -4,6 +4,8 @@
 <dict>
 	<key>name</key>
 	<string>Completions</string>
+	<key>scope</key>
+	<string>source.lua</string>
 	<key>settings</key>
 	<dict>
 		<key>completions</key>
